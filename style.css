@@ -1,0 +1,158 @@
+body{
+	text-decoration: none;
+	background-color: #8db0b0;
+	margin: 0px;
+}
+
+.nav-bar {
+	background-color: #47334f;
+	padding-right: 30px;
+	padding-top: 30px;
+	height: 60px;
+}
+
+.nav-bar .dugme {
+	float: right;
+	margin-top: 50px;
+	line-height: 30px;
+	margin:0px 20px;
+	border: none;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	color:#fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+
+.nav-bar .dugme:hover{
+	cursor: pointer;
+	color:#f0485e;
+	border-bottom: 4px solid #f0485e;
+}
+
+.romb{
+	position: relative;
+	background-color: #47334f;  
+	webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	overflow:hidden;
+	color: #f0485e;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+#skew1 {
+	height: 200px;
+	width: 200px;
+	top: 250px;
+	left: 350px;
+	
+}
+#skew1:hover{
+	background-color: blue;
+}
+
+#skew2 {
+	height: 100px;
+	width: 100px;
+	top: 20px;
+	left: 550px;
+}
+
+#skew2:hover{
+	/*background: url(logo.jpg);*/
+	color: transparent;
+
+}
+
+#skew2:hover > #skew2 img{
+	display:block!important;
+}
+
+#skew3 {
+	height: 100px;
+	width: 100px;
+	top: 0px;
+	left: 630px;
+}
+
+#skew3:hover {
+	background: url(http://idemo.ba/wp/wp-content/uploads/bascarsija-100x100.jpg);
+	color: transparent;
+}
+
+#skew4 {    
+	height: 100px;
+	width: 100px;
+	top: -100px;
+	left: 789px;
+}
+
+#skew4:hover{
+	background: url(https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/005/078/08f/3007c60.jpg);
+	color: transparent;
+}
+
+#skew5 {      
+	height: 50px;
+	width: 50px;
+	top: -98px;
+	left: 858px;
+	background: url(http://www.af.mil/DesktopModules/SocialMediaFeed/Templates/JCS/Images/FB-f-Logo__blue_50.png);
+}
+#skew5:hover {
+	
+	color: transparent;
+}
+#skew6 {      
+	height: 50px;
+	width: 50px;
+	top: -105px;
+	left: 900px;
+	background: url(https://www.floridastateparks.org/sites/default/files/logos/instagram_logo.png);
+}
+
+#skew6:hover{
+	
+	color: transparent;
+}
+
+#skew7 {      
+	height: 50px;
+	width: 50px;
+	top: -195px;
+	left: 945px;
+	background: url(http://investorplace.com/wp-content/themes/InvestorPlaceV2/images/article-page/twitter-logo.png);
+}
+
+#skew7:hover{
+	
+	color: transparent;
+
+}
+.slika{
+	position: relative;
+	top: 75px;
+	left: 70px;
+	height: auto;
+}
+.tekst{
+	position: relative;
+	height: 500px;
+	width: 650px;
+	top: -230px;
+	left: 600px;
+}
+
+.tekst2{
+	position: relative;
+	height: 100px;
+	width: 1200px;
+	left: 70px;
+	top: -440px;
+}
+
