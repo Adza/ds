@@ -85,14 +85,14 @@ body {
 
 /*spustanje home nav bara */
 @-webkit-keyframes spustanje {
-    0%   {background-color: #8c2141; left:0px; top:-72px;}
-    100% {background-color: #8c2141; left:0px; top:0px;}
+    0%   {background-color: #47334f; left:0px; top:-72px;}
+    100% {background-color: #47334f; left:0px; top:0px;}
 }
 
 /*spustanje home nav bara */
 @keyframes spustanje {
-    0%   {background-color: #8c2141; left:0px; top:-72px;}
-    100% {background-color: #8c2141; left:0px; top: 0px;}
+    0%   {background-color: #47334f; left:0px; top:-72px;}
+    100% {background-color: #47334f; left:0px; top: 0px;}
 }
 
 .nav-bar {
@@ -244,7 +244,7 @@ a {
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
     -o-transition: all 1s ease; /* Opera */
-	background: url(http://striderlearning.com/wp-content/uploads/2015/04/instagram-logo-kgo-55x55.png);
+	background: url(http://www.addictivedjs.com/wp-content/uploads/2014/07/instagram-logo.png);
 }
 
 #skew6:hover {
@@ -275,6 +275,29 @@ a {
      transform:scale(1.5);
 }
 
+#skew8 {
+	height: 100px;
+	width: 100px;
+	top: -80px;
+	left: 620px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    background: url(http://www.teslaelectric-eu.com/test/html_new/img/partners_1.png);
+    background-size: 150px;
+	color: transparent;
+}
+
+#skew8:hover {
+	-webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+     transform:scale(1.5);
+}
+
+
 img {
   	width: 600px;
   	height: auto;
@@ -290,19 +313,26 @@ img {
 
 .tekst{
 	position: relative;
-
-
-
+  margin-top: 100px;
 	color: #47334f;
 	text-align: justify;
 	font-size: 16px;
-	margin: 0px;
+
 }
 
 #slika{
 	cursor: pointer;
 	cursor: hand;
 }
+
+
+.pictures{
+  display: block;
+  width: 95%;
+  margin-top: 100px;
+}
+
+
 /*
 @-webkit-keyframes fadeout {
     0% { opacity: 1; }
