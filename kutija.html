@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href = "CSS.css">
+<title> STRANICA </title>
+</head>
+
+<body>
+
+<table align = "center" border = "0">
+	<tr>
+		<td>		
+				<div style="position: relative; left: 0; top: 0;">
+					<img id = "slika" src="kutija.png" style="position: relative; top: 0; left: 0;" />
+					<img id = "gif" src = "kg.gif" style=" position: absolute; top: 186px; left: 238px;" height = "400px" width = "550px"/>
+					<img id = "o" src = "kutijao.png" style=" position: absolute; top: 186px; left: 238px;" height = "400px" width = "550px">
+				</div>
+					
+				<script type="text/javascript">
+				
+					document.getElementById("gif").style.visibility = "hidden";
+				    document.getElementById("o").style.visibility = "hidden";
+					
+					document.getElementById("slika").onclick = function() {
+						document.getElementById("slika").style.visibility = "hidden";
+						document.getElementById("gif").style.visibility = "visible";
+					}	
+
+			
+				</script>
+		</td>	
+		
+	</tr>	
+</table>
+
+
+</body>
+
+</html>
