@@ -1,4 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700&subset=latin,latin-ext);
+
 body {
+	font-family: 'Lato', sans-serif;
 	text-decoration: none;
 	background-color: #f0485e;
 	background-size: 1360px 800px;
@@ -15,7 +18,7 @@ body {
 	height: 50px;
 	left: 550px;
 	top: -52px;
-	
+
 }
 .okvir {
 	position: relative;
@@ -43,12 +46,12 @@ body {
 
 .okvirCD{
 	position: absolute;
-	background-color: #8c2141;	  
-	left: 330px; 
-	top: 10px; 
-	width: 550px; 
-	height: 50px; 
-	display: table; 
+	background-color: #8c2141;
+	left: 330px;
+	top: 10px;
+	width: 550px;
+	height: 50px;
+	display: table;
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	font-size: 16px;
@@ -122,7 +125,7 @@ body {
 
 .romb{
 	position: relative;
-	background-color: #47334f;  
+	background-color: #47334f;
 	webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -140,7 +143,7 @@ a {
 	width: 200px;
 	top: 200px;
 	left: 350px;
-	
+
 }
 #skew1:hover{
 	background-color: blue;
@@ -190,7 +193,7 @@ a {
      transform:scale(1.5);
 }
 
-#skew4 {    
+#skew4 {
 	height: 100px;
 	width: 100px;
 	top: -150px;
@@ -211,7 +214,7 @@ a {
      transform:scale(1.5);
 }
 
-#skew5 {      
+#skew5 {
 	height: 50px;
 	width: 50px;
 	top: -148px;
@@ -231,7 +234,7 @@ a {
      transform:scale(1.5);
 }
 
-#skew6 {      
+#skew6 {
 	height: 50px;
 	width: 50px;
 	top: -155px;
@@ -242,7 +245,7 @@ a {
     -o-transition: all 1s ease; /* Opera */
 	21:23 23.10.2015
 }
-	
+
 #skew6:hover {
 	-webkit-transform:scale(1.5); /* Safari and Chrome */
     -moz-transform:scale(1.5); /* Firefox */
@@ -251,7 +254,7 @@ a {
      transform:scale(1.5);
 }
 
-#skew7 {      
+#skew7 {
 	height: 50px;
 	width: 50px;
 	top: -245px;
@@ -286,10 +289,9 @@ img {
 
 .tekst{
 	position: relative;
-	height: 500px;
-	width: 600px;
-	top: -347px;
-	left: 700px;
+
+
+
 	color: white;
 	text-align: justify;
 	font-size: 16px;
@@ -309,5 +311,3 @@ img {
 #gif{
  -webkit-animation: fadein 2s ease-in alternate infinite;
 }*/
-
-
