@@ -4,6 +4,7 @@
     .block-50precent{ width: 620px; float:left; }
     .block-30precent{ width: 400px; float:left; }
     .block-25precent{ width: 310px; float:left; }
+    .block-33precent{ width: 413px; float:left; }
 
     /* Dimension blocks */
     .block-small{ width: 300px; float:left; }
@@ -43,6 +44,7 @@
    .block-50precent{ width: 480px; }
   .block-30precent{ width: 300px; }
    .block-25precent{ width: 240px; }
+   .block-33precent{ width: 323px; float:left; }
 
    /* Dimension blocks */
    .block-small{ width: 320px!important; }
@@ -67,6 +69,7 @@
     .block-50precent{ width: 384px; }
     .block-30precent{ width: 250px; }
     .block-25precent{ width: 192px; }
+    .block-33precent{ width: 256px; }
 
     /* Dimension blocks */
     .block-small{ width: 256px!important; }
@@ -81,5 +84,5 @@
 
 /* The mobile site */
 @media only screen and (max-width: 767px) {
-
+  .block-33precent{ width: 100%; }
 }
