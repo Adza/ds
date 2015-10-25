@@ -4,9 +4,39 @@
 		<title>Design Sprint</title>
 
 		<link rel="stylesheet" href="css/style.css">
+		<script src="countdown.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<!--<link href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,latin-ext' rel='stylesheet' type='text/css'>-->
+		<!--<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin-ext,latin' rel='stylesheet' type='text/css'>-->
+		<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 	</head>
 
 	<body>
+		<!-- Home nav bar za apply !-->
+	 <div id="apply" id="spustanje">
+			<!-- Dugme na nav bar homeu !-->
+
+				<div class="okvir">
+					<a href="https://eestec.net/events/2nd-design-sprint" style="color: white"><b>Apply here</b></a>
+				</div>
+				<div class="okvirCD">
+					<p>Deadline for applications:</p>
+				</div>
+				<div class="cd">
+					<div id="div-xILgdeYzjk"></div><script>
+						var myCountdown1 = new Countdown({
+						time: 86400 * 15, // 86400 seconds = 1 day
+						width:250,
+						height:50,
+						rangeHi:"day",
+						style:"flip"
+						});
+						</script>
+				</div>
+			</div>
+
+
 		<div>
 			<!-- Menu -->
 			<a href="index.html"><div class="romb" id="skew1" > </div></a>

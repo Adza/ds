@@ -12,6 +12,7 @@
     .block-300{ width: 300px; float:left; }
 
     /* Margins */
+    /* .m{strana}-{velicina} */
     .mr-5{  margin-right: 5px; }
     .mr-10{ margin-right: 10px; }
     .mr-15{ margin-right: 15px; }
@@ -35,7 +36,7 @@
 
 /* The medium site */
 @media only screen and (min-width: 970px) and (max-width: 1160px){
-    .block-container{ width: 970px; }
+  .block-container{ width: 970px; }
 
    .block-75precent{ width: 730px; }
    .block-50precent{ width: 480px; }

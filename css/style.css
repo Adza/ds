@@ -1,14 +1,101 @@
-body{
+body {
 	text-decoration: none;
-	background-color: #8db0b0;
+	background-color: #f0485e;
+	background-size: 1360px 800px;
 	margin: 0px;
 }
 
-.nav-bar {
-	background-color: #47334f;
+.naslov{
+	font-size: 28px;
+}
+
+.cd {
+	position: relative;
+	width: 350px;
+	height: 50px;
+	left: 550px;
+	top: -52px;
+	
+}
+.okvir {
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	color: white;
+	background-color: #8c2141;
+	height: 40px;
+	width: 150px;
+	left: 880px;
+	border: solid white;
+	top: -7px;
+	text-decoration: none;
+	border-radius: 5px;
+	border-width: 2px;
+	text-transform: uppercase;
+}
+
+
+.dugme {
+  display: block;
+  margin: auto;
+}
+
+.okvirCD{
+	position: absolute;
+	background-color: #8c2141;	  
+	left: 330px; 
+	top: 10px; 
+	width: 550px; 
+	height: 50px; 
+	display: table; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.okvirCD p{
+	display:table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding-left:5px;
+}
+
+#apply {
+	position: relative;
+	background-color: #8c2141;
 	padding-right: 30px;
-	padding-top: 30px;
-	height: 60px;
+	padding-top: 20px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	box-shadow: 0px 4px 4px #313131;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	-webkit-animation-name: spustanje;
+    -webkit-animation-duration: 4s;
+    animation-name: spustanje;
+    animation-duration: 4s;
+}
+
+/*spustanje home nav bara */
+@-webkit-keyframes spustanje {
+    0%   {background-color: #8c2141; left:0px; top:-72px;}
+    100% {background-color: #8c2141; left:0px; top:0px;}
+}
+
+/*spustanje home nav bara */
+@keyframes spustanje {
+    0%   {background-color: #8c2141; left:0px; top:-72px;}
+    100% {background-color: #8c2141; left:0px; top: 0px;}
+}
+
+.nav-bar {
+	background-color: #8c2141;
+	padding-right: 30px;
+	padding-top: 20px;
+	height: 50px;
 }
 
 .nav-bar .dugme {
@@ -23,13 +110,14 @@ body{
 	color:#fff;
 	font-weight: 500;
 	text-transform: uppercase;
-	font-family: Arial;
+	font-family: 'Roboto slab', sans-serif;
+	padding-bottom: 1px;
 }
 
 .nav-bar .dugme:hover{
 	cursor: pointer;
-	color:#f0485e;
-	border-bottom: 4px solid #f0485e;
+	color:#4a7887;
+	border-bottom: 4px solid #4a7887;
 }
 
 .romb{
@@ -42,13 +130,15 @@ body{
 	color: #f0485e;
 	text-align: center;
 }
+
 a {
 	text-decoration: none;
 }
+
 #skew1 {
 	height: 200px;
 	width: 200px;
-	top: 250px;
+	top: 200px;
 	left: 350px;
 	
 }
@@ -59,100 +149,165 @@ a {
 #skew2 {
 	height: 100px;
 	width: 100px;
-	top: 20px;
-	left: 550px;
+	top: -31px;
+	left: 546px;
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+	background: url(logo.jpg);
+	color: transparent;
 }
 
 #skew2:hover{
-	/*background: url(logo.jpg);*/
-	color: transparent;
-
-}
-
-#skew2:hover > #skew2 img{
-	display:block!important;
+	-webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+     transform:scale(1.5);
+     font-weight: bold;
 }
 
 #skew3 {
 	height: 100px;
 	width: 100px;
-	top: 0px;
-	left: 630px;
+	top: -50px;
+	left: 620px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+	background: url(http://idemo.ba/wp/wp-content/uploads/bascarsija-100x100.jpg);
+	color: transparent;
 }
 
 #skew3:hover {
-	background: url(http://idemo.ba/wp/wp-content/uploads/bascarsija-100x100.jpg);
-	color: transparent;
+	-webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+     transform:scale(1.5);
 }
 
 #skew4 {    
 	height: 100px;
 	width: 100px;
-	top: -100px;
-	left: 789px;
+	top: -150px;
+	left: 769px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+	background: url(https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/005/078/08f/3007c60.jpg);
+	color: transparent;
 }
 
 #skew4:hover{
-	background: url(https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/005/078/08f/3007c60.jpg);
-	color: transparent;
+	-webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+     transform:scale(1.5);
 }
 
 #skew5 {      
 	height: 50px;
 	width: 50px;
-	top: -98px;
-	left: 858px;
+	top: -148px;
+	left: 838px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
 	background: url(http://www.af.mil/DesktopModules/SocialMediaFeed/Templates/JCS/Images/FB-f-Logo__blue_50.png);
 }
+
 #skew5:hover {
-	
-	color: transparent;
+	-webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+     transform:scale(1.5);
 }
+
 #skew6 {      
 	height: 50px;
 	width: 50px;
-	top: -105px;
-	left: 900px;
-	background: url(https://www.floridastateparks.org/sites/default/files/logos/instagram_logo.png);
+	top: -155px;
+	left: 880px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+	21:23 23.10.2015
 }
-
-#skew6:hover{
 	
-	color: transparent;
+#skew6:hover {
+	-webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+     transform:scale(1.5);
 }
 
 #skew7 {      
 	height: 50px;
 	width: 50px;
-	top: -195px;
-	left: 945px;
+	top: -245px;
+	left: 925px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
 	background: url(http://investorplace.com/wp-content/themes/InvestorPlaceV2/images/article-page/twitter-logo.png);
 }
 
-#skew7:hover{
-	
-	color: transparent;
-
+#skew7:hover {
+	-webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+     transform:scale(1.5);
 }
-.slika{
+
+img {
+  	width: 600px;
+  	height: auto;
+}
+
+.slike{
 	position: relative;
 	top: 75px;
-	left: 70px;
+	padding-left: 60px;
 	height: auto;
+	margin: 0px;
 }
+
 .tekst{
 	position: relative;
 	height: 500px;
-	width: 650px;
-	top: -230px;
-	left: 600px;
+	width: 600px;
+	top: -347px;
+	left: 700px;
+	color: white;
+	text-align: justify;
+	font-size: 16px;
+	margin: 0px;
 }
 
-.tekst2{
-	position: relative;
-	height: 100px;
-	width: 1200px;
-	left: 70px;
-	top: -440px;
+#slika{
+	cursor: pointer;
+	cursor: hand;
 }
+/*
+@-webkit-keyframes fadeout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+#gif{
+ -webkit-animation: fadein 2s ease-in alternate infinite;
+}*/
+
 
