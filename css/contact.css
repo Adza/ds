@@ -1,0 +1,34 @@
+label{
+	display:block;
+}
+#dugme-kontakt{
+	width:180px;
+	font-family:helvetica;
+	background: rgb(30, 81, 128);
+	border: 0;
+	color:white;
+	height:40px;
+	border-radius:2px;
+	font-size:100%;
+}
+.kontakt-text{
+	width:500px;
+}
+.kontakt-pitanje{
+	width:500px;
+	height:60px
+}
+.kontakt-forma, .kontakt-naslov{
+	position:relative;
+	display:block;
+	width:40%;
+	margin: 0 auto;
+}
+.kontakt-labela, .kontakt-heading{
+	font-family: helvetica;
+	font-weight: bold;
+}
+.kontakt-heading{
+	width:180px;
+	border-bottom: 11px solid #2da2c8;
+}
