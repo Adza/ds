@@ -2,6 +2,7 @@
 
     .block-75precent{ width: 930px; float:left; }
     .block-50precent{ width: 620px; float:left; }
+    .block-30precent{ width: 400px; float:left; }
     .block-25precent{ width: 310px; float:left; }
 
     /* Dimension blocks */
@@ -40,6 +41,7 @@
 
    .block-75precent{ width: 730px; }
    .block-50precent{ width: 480px; }
+  .block-30precent{ width: 300px; }
    .block-25precent{ width: 240px; }
 
    /* Dimension blocks */
@@ -63,6 +65,7 @@
 
     .block-75precent{ width: 576px; }
     .block-50precent{ width: 384px; }
+    .block-30precent{ width: 250px; }
     .block-25precent{ width: 192px; }
 
     /* Dimension blocks */
