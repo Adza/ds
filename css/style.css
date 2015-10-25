@@ -11,6 +11,14 @@ body {
 
 .naslov{
 	font-size: 28px;
+  padding:10px 20px;background:#fff;margin-bottom:20px;margin-top:-60px;box-shadow:0px 2px 5px #5d5d5d;
+}
+
+.info{
+  background:#fff;padding:10px 20px;margin-bottom:20px;
+  -webkit-box-shadow:0px 2px 5px #5d5d5d;
+  -moz-box-shadow:0px 2px 5px #5d5d5d;
+  box-shadow:0px 2px 5px #5d5d5d;
 }
 
 .cd {
@@ -102,6 +110,18 @@ body {
 	height: 50px;
 }
 
+.nav-bar .logo{
+  float:left;
+  height:70px;
+  margin:2px 10px;
+  margin-top:-20px;
+}
+
+.nav-bar .logo img{
+  height:70px;
+  width: auto;
+}
+
 .nav-bar .dugme {
 	float: right;
 	margin-top: 50px;
@@ -121,7 +141,7 @@ body {
 .nav-bar .dugme:hover{
 	cursor: pointer;
 	color:#4a7887;
-	border-bottom: 4px solid #4a7887;
+
 }
 
 .romb{
@@ -160,7 +180,7 @@ a {
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-	background: url(logo.jpg);
+	background: url(../img/logo.jpg);
 	color: transparent;
 }
 
@@ -224,7 +244,7 @@ a {
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
     -o-transition: all 1s ease; /* Opera */
-	background: url(http://www.af.mil/DesktopModules/SocialMediaFeed/Templates/JCS/Images/FB-f-Logo__blue_50.png);
+	background: url(../img/fb.png);
 }
 
 #skew5:hover {
@@ -244,7 +264,7 @@ a {
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
     -o-transition: all 1s ease; /* Opera */
-	background: url(http://www.addictivedjs.com/wp-content/uploads/2014/07/instagram-logo.png);
+	background: url(../img/ig.png);
 }
 
 #skew6:hover {
@@ -264,7 +284,7 @@ a {
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
     -o-transition: all 1s ease; /* Opera */
-	background: url(http://investorplace.com/wp-content/themes/InvestorPlaceV2/images/article-page/twitter-logo.png);
+	background: url(../img/tw.png);
 }
 
 #skew7:hover {
@@ -298,10 +318,7 @@ a {
 }
 
 
-img {
-  	width: 600px;
-  	height: auto;
-}
+
 
 .slike{
 	position: relative;
@@ -313,7 +330,7 @@ img {
 
 .tekst{
 	position: relative;
-  margin-top: 100px;
+  margin-top: 40px;
 	color: #47334f;
 	text-align: justify;
 	font-size: 16px;
@@ -329,10 +346,53 @@ img {
 .pictures{
   display: block;
   width: 95%;
-  margin-top: 100px;
+  margin-left:5%;
+  margin-top: 40px;
 }
 
+.footer{
+  background:#292929;
+  width:100%;
+  height:300px;
+  margin-top:30px;
+}
 
+.cover-lcsarajevo{
+  height:280px;
+  background:url('http://www.jobfair.ba/img/cover/oeestecu.jpg'); no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+   border-bottom: 2px solid #47334f;
+}
+
+.cover-sarajevo{
+  height:280px;
+  background:url('http://pre14.deviantart.net/ae93/th/pre/f/2014/033/a/3/___panorama_of_sarajevo____by_roblfc1892-d74so1q.jpg'); no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+   background-position-y:-120px;
+   border-bottom: 2px solid #47334f;
+
+}
+
+.cover-ds{
+  height:280px;
+  background:url('https://static.pexels.com/photos/232/apple-iphone-books-desk.jpg'); no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+   background-position-y:-560px;
+   border-bottom: 2px solid #47334f;
+
+}
 /*
 @-webkit-keyframes fadeout {
     0% { opacity: 1; }
