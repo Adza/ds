@@ -1,0 +1,81 @@
+.block-container{ width: 1240px; margin:0 auto; }
+
+    .block-75precent{ width: 930px; float:left; }
+    .block-50precent{ width: 620px; float:left; }
+    .block-25precent{ width: 310px; float:left; }
+
+    /* Dimension blocks */
+    .block-small{ width: 300px; float:left; }
+    .block-med{ width: 610px; float:left; }
+
+    /* Strict blocks */
+    .block-300{ width: 300px; float:left; }
+
+    /* Margins */
+    .mr-5{  margin-right: 5px; }
+    .mr-10{ margin-right: 10px; }
+    .mr-15{ margin-right: 15px; }
+    .mr-20{ margin-right: 20px;}
+
+    .ml-5{  margin-left: 5px; }
+    .ml-10{ margin-left: 10px; }
+    .ml-15{ margin-left: 15px; }
+    .ml-20{ margin-left: 20px;}
+
+    .mt-5{  margin-top: 5px; }
+    .mt-10{ margin-top: 10px; }
+    .mt-15{ margin-top: 15px; }
+    .mt-20{ margin-top: 20px;}
+
+    .mb-5{  margin-bottom: 5px; }
+    .mb-10{ margin-bottom: 10px; }
+    .mb-15{ margin-bottom: 15px; }
+    .mb-20{ margin-bottom: 20px;}
+
+
+/* The medium site */
+@media only screen and (min-width: 970px) and (max-width: 1160px){
+    .block-container{ width: 970px; }
+
+   .block-75precent{ width: 730px; }
+   .block-50precent{ width: 480px; }
+   .block-25precent{ width: 240px; }
+
+   /* Dimension blocks */
+   .block-small{ width: 320px!important; }
+   .block-med{ width: 640px!important; }
+
+   /* Just medium stuff */
+   .block-main{ width:970px!important; }
+   .block-hide{ display: none!important; }
+
+   .nmr-mid{ margin-right: 0!important; }
+
+   /* Dimension blocks */
+   .block-small{ width: 300px; }
+   .block-med{ width: 610px; }
+}
+
+/* The tablet site */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .block-container{ width: 768px; }
+
+    .block-75precent{ width: 576px; }
+    .block-50precent{ width: 384px; }
+    .block-25precent{ width: 192px; }
+
+    /* Dimension blocks */
+    .block-small{ width: 256px!important; }
+    .block-med{ width: 502px!important; }
+
+    /* Just tablet stuff */
+    .block-main{ width:768px!important; }
+    .block-hide{ display: none!important; }
+
+    .nmr-tab{ margin-right: 0px;}
+}
+
+/* The mobile site */
+@media only screen and (max-width: 767px) {
+
+}
