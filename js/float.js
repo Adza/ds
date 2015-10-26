@@ -1,3 +1,10 @@
+function floating() {
+       $('.balon').animate({top:'+=20'}, 1000);
+       $('.balon').animate({top:'-=20'}, 1000, floating);
+   }
+
+
+
 $(document).ready(function(){
   $( ".skew1" ).animate({
     left: "+=150",
@@ -40,5 +47,13 @@ $(document).ready(function(){
     top: "+=150"
   }, 800, function() {
   });
+
+  $('.balon').animate({
+    top: "-=320"
+  }, 1200, function() {
+  });
+
+  floating();
+
 
 });
