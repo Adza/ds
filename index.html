@@ -4,8 +4,10 @@
 		<title>Design Sprint</title>
 
 		<link rel="stylesheet" href="css/style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="countdown.js"></script>
-		<link rel="stylesheet" href="css/style.css">
+		<script src="js/float.js"></script>
 		<!--<link href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,latin-ext' rel='stylesheet' type='text/css'>-->
 		<!--<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin-ext,latin' rel='stylesheet' type='text/css'>-->
 		<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -44,29 +46,32 @@
 
 		<div>
 			<!-- Menu -->
-			<a href="index.html"><div class="romb" id="skew1" > </div></a>
+			<div style="z-index:100;">
+				<a href="index.html"><div class="romb skew1" id="skew1" > </div></a>
 
-			<a href="designsprint.html"><div class="romb" id="skew2">
-				<b>Design Sprint</b>
-				<img style="display:none;" src="img/logo.jpg" />
-			</div></a>
+				<a href="designsprint.html"><div class="romb skew2" id="skew2">
+					<b>Design Sprint</b>
+					<img style="display:none;" src="img/logo.jpg" />
+				</div></a>
 
-			<a href="aboutsarajevo.html"><div class="romb" id="skew3">
-				<b>About Sarajevo</b>
-			</div></a>
+				<a href="aboutsarajevo.html"><div class="romb" id="skew3">
+					<b>About Sarajevo</b>
+				</div></a>
 
-			<a href="lcsarajevo.html"><div class="romb" id="skew4">
-				<b>EESTEC LC Sarajevo</b>
-			</div></a>
+				<a href="lcsarajevo.html"><div class="romb" id="skew4">
+					<b>EESTEC LC Sarajevo</b>
+				</div></a>
 
-			<!-- Facebook -->
-			<a href="https://www.facebook.com/eestecsarajevo" target="_blank"><div class="romb" id="skew5"></div></a>
+				<!-- Facebook -->
+				<a href="https://www.facebook.com/eestecsarajevo" target="_blank"><div class="romb" id="skew5"></div></a>
 
-			<!-- Instagram -->
-			<a href="https://instagram.com/explore/tags/lcsarajevo" target="_blank"><div class="romb" id="skew6"></div></a>
+				<!-- Instagram -->
+				<a href="https://instagram.com/explore/tags/lcsarajevo" target="_blank"><div class="romb" id="skew6"></div></a>
 
-			<!-- Twitter -->
-			<a href="https://twitter.com/eestecSarajevo" target="_blank"><div class="romb" id="skew7"></div></a>
+				<!-- Twitter -->
+				<a href="https://twitter.com/eestecSarajevo" target="_blank"><div class="romb" id="skew7"></div></a>
+			</div>
+
 		</div>
 	</body>
 </html>

@@ -162,8 +162,8 @@ a {
 #skew1 {
 	height: 200px;
 	width: 200px;
-	top: 200px;
-	left: 350px;
+	top: 50px;
+	left: 200px;
 
 }
 #skew1:hover{
@@ -173,8 +173,8 @@ a {
 #skew2 {
 	height: 100px;
 	width: 100px;
-	top: -31px;
-	left: 546px;
+	top: 120px;
+	left: 700px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -196,8 +196,8 @@ a {
 #skew3 {
 	height: 100px;
 	width: 100px;
-	top: -50px;
-	left: 620px;
+	top: -200px;
+	left: 480px;
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -217,8 +217,8 @@ a {
 #skew4 {
 	height: 100px;
 	width: 100px;
-	top: -150px;
-	left: 769px;
+	top: -300px;
+	left: 930px;
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -238,8 +238,8 @@ a {
 #skew5 {
 	height: 50px;
 	width: 50px;
-	top: -148px;
-	left: 838px;
+	top: 52px;
+	left: 638px;
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -258,8 +258,8 @@ a {
 #skew6 {
 	height: 50px;
 	width: 50px;
-	top: -155px;
-	left: 880px;
+	top: -5px;
+	left: 680px;
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -278,8 +278,8 @@ a {
 #skew7 {
 	height: 50px;
 	width: 50px;
-	top: -245px;
-	left: 925px;
+	top: -395px;
+	left: 1075px;
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
