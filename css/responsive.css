@@ -6,6 +6,9 @@
     .block-25precent{ width: 310px; float:left; }
     .block-33precent{ width: 413px; float:left; }
 
+    .block-33precent{ width: 413px; float:left; }
+
+
     /* Dimension blocks */
     .block-small{ width: 300px; float:left; }
     .block-med{ width: 610px; float:left; }
@@ -46,6 +49,8 @@
    .block-25precent{ width: 240px; }
    .block-33precent{ width: 323px; float:left; }
 
+   .block-33precent{ width: 323px; float:left; }
+
    /* Dimension blocks */
    .block-small{ width: 320px!important; }
    .block-med{ width: 640px!important; }
@@ -71,6 +76,8 @@
     .block-25precent{ width: 192px; }
     .block-33precent{ width: 256px; }
 
+    .block-33precent{ width: 256px; float:left; }
+
     /* Dimension blocks */
     .block-small{ width: 256px!important; }
     .block-med{ width: 502px!important; }
@@ -84,5 +91,9 @@
 
 /* The mobile site */
 @media only screen and (max-width: 767px) {
+<<<<<<< HEAD
+  .block-33precent{ width: 100%; float:left; }
+=======
   .block-33precent{ width: 100%; }
+>>>>>>> 9cbfa02d652a14e263268448709644aa206a5cf9
 }
