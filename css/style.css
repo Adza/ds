@@ -38,8 +38,12 @@ body {
 	height: 50px;
 	left: 550px;
 	top: -52px;
-
+  color:#fff!important;
 }
+#TextBox_jbeeb_90{ color:#fff!important; }
+#TextBox_jbeeb_175{ color:#fff!important; }
+#TextBox_jbeeb_260{ color:#fff!important; }
+#TextBox_jbeeb_345{ color:#fff!important; }
 .okvir {
 	position: relative;
 	text-align: center;

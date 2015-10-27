@@ -3,6 +3,16 @@ function floating() {
        $('.balon').animate({top:'-=20'}, 1000, floating);
    }
 
+   function sunce() {
+          $('.sunce').animate({top:'+=10'}, 1000);
+          $('.sunce').animate({top:'-=10'}, 1000, sunce);
+      }
+
+      function oblak() {
+             $('.oblak').animate({right:'+=20'}, 1000);
+             $('.oblak').animate({right:'-=20'}, 1000, oblak);
+         }
+
 
 
 $(document).ready(function(){
@@ -54,6 +64,7 @@ $(document).ready(function(){
   });
 
   floating();
-
+  sunce();
+  oblak();
 
 });
