@@ -180,11 +180,11 @@ a {
 	width: 200px;
 	top: 50px;
 	left: 200px;
-	background: url(../img/main.png);
+	background: url(../img/DSLogo.png);
 
 }
 #skew1:hover{
-	background-color: blue;
+	background: url(../img/DSLogoH.png);
 }
 
 #skew2 {
@@ -259,13 +259,12 @@ a {
 	width: 50px;
 	top: 53px;
 	left: 646px;
-	border-radius: 20px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-    background-color: #d5d5d5;
+    background-color: transparent;
 }
 
 #skew5:hover {
@@ -281,13 +280,12 @@ a {
 	width: 50px;
 	top: -8px;
 	left: 686px;
-	border-radius: 20px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-    background-color: #d5d5d5;
+    background-color: transparent;
 }
 
 #skew6:hover {
@@ -303,13 +301,12 @@ a {
 	width: 50px;
 	top: -395px;
 	left: 1075px;
-	border-radius: 20px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-    background-color: #d5d5d5;
+    background-color: transparent;
 }
 
 #skew7:hover {
@@ -325,13 +322,12 @@ a {
 	width: 52px;
 	top: -335px;
 	left: 885px;
-	border-radius: 20px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-    background-color: #d5d5d5; 
+    background-color: transparent; 
 }
 
 #skew8:hover {
