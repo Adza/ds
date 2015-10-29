@@ -4,21 +4,21 @@ body {
 	font-family: 'Lato', sans-serif;
 	text-decoration: none;
 	background-color: #d5d5d5;
-	background-size: 1360px 800px;
 	margin: 0px;
 	padding-bottom: -100px;
 }
 
+
 .hoverfb:hover{
-	content: url(../img/fbh.png);
+	content: url(../img/fb.png);
 }
 
 .hoverig:hover{
-	content: url(../img/igh.png);
+	content: url(../img/ig.png);
 }
 
 .hovertw:hover{
-	content: url(../img/twh.png);
+	content: url(../img/tw.png);
 }
 .naslov{
 	font-size: 28px;
@@ -159,7 +159,7 @@ body {
 
 }
 
-.romb{
+.romb {
 	position: relative;
 	background-color: #47334f;
 	webkit-transform: rotate(45deg);
@@ -173,6 +173,7 @@ body {
 a {
 	text-decoration: none;
 }
+
 
 #skew1 {
 	height: 200px;
@@ -263,7 +264,7 @@ a {
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-	background: url(../img/fb.png);
+    background-color: #d5d5d5;
 }
 
 #skew5:hover {
@@ -284,7 +285,7 @@ a {
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-	background: url(../img/ig.png);
+    background-color: #d5d5d5;
 }
 
 #skew6:hover {
@@ -305,7 +306,7 @@ a {
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-	background: url(../img/tw.png);
+    background-color: #d5d5d5;
 }
 
 #skew7:hover {
@@ -326,7 +327,7 @@ a {
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-	background: url(../img/yt.png);
+    background-color: #d5d5d5; 
 }
 
 #skew8:hover {
