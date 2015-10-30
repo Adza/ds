@@ -330,7 +330,7 @@ a {
     -ms-transition: all 0.5s ease; /* IE 9 */
     -o-transition: all 0.5s ease; /* Opera */
     transition: all 0.5s ease;
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 #skew8:hover {
@@ -421,6 +421,19 @@ a {
    border-bottom: 2px solid #47334f;
 
 }
+
+.cover-raspored{
+    height:280px;
+    background:url('https://static.pexels.com/photos/7376/startup-photos-large.jpg'); no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    background-position-y:-160px;
+    border-bottom: 2px solid #47334f;
+    
+   }
 /*
 @-webkit-keyframes fadeout {
     0% { opacity: 1; }
