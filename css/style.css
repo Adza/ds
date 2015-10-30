@@ -10,16 +10,20 @@ body {
 
 
 .hoverfb:hover{
-	content: url(../img/fb.png);
+	border-radius: 5px;
+	background-color: #949393;
 }
 
 .hoverig:hover{
-	content: url(../img/ig.png);
+	border-radius: 5px;
+	background-color: #949393;
 }
 
 .hovertw:hover{
-	content: url(../img/tw.png);
+	border-radius: 5px;
+	background-color: #949393;
 }
+
 .naslov{
 	font-size: 28px;
   padding:10px 20px;background:#fff;margin-bottom:20px;margin-top:-60px;box-shadow:0px 2px 5px #5d5d5d;
@@ -332,6 +336,7 @@ a {
     -ms-transform:scale(1.2); /* IE 9 */
     -o-transform:scale(1.2); /* Opera */
      transform:scale(1.2);
+
 }
 
 
