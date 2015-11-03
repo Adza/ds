@@ -21,22 +21,62 @@
       margin-top: 45px;
     }
 
-    .slidesjs-navigation {
-      margin-top:3px;
+    #slides .slidesjs-navigation {
+      margin-top:5px;
     }
 
-    .slidesjs-previous {
-      margin-right: 5px;
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
       float: left;
+      margin-right:5px;
     }
 
-    .slidesjs-next {
-      margin-right: 5px;
-      float: left;
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
     }
 
     .slidesjs-pagination {
-      margin: 6px 0 0;
+      margin: 7px 0 0;
       float: right;
       list-style: none;
     }
@@ -66,13 +106,13 @@
       background-position: 0 -26px
     }
 
-    a:link,
-    a:visited {
+    #slides a:link,
+    #slides a:visited {
       color: #333
     }
 
-    a:hover,
-    a:active {
+    #slides a:hover,
+    #slides a:active {
       color: #9e2020
     }
 
@@ -183,8 +223,6 @@
                     <img src="img/sarajevo.jpg" alt="Sarajevo">
                     <img src="img/lcsarajevo.jpg" alt="LC Sarajevo">
                     <img src="img/logo.jpg" alt="2'nd DS">
-                    <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left"></i></a>
-                    <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right"></i></a>
                    </div>
                </div>
         </div>
@@ -237,12 +275,17 @@
   
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script src="js/jquery.slides.min.js"></script>
-  <script>
+   <script>
     $(function() {
       $('#slides').slidesjs({
         width: 940,
         height: 528,
-        navigation: false
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
       });
     });
   </script>
