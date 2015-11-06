@@ -527,7 +527,7 @@ a {
 
 .slikeorg img {
 	width: 250px;
-	height: 250px;
+	height: 240px;
 	
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -537,7 +537,7 @@ a {
 }
 
 .slikeorg li:hover img {
-	height: 260px;
+	height: 240px;
 	width: 250px;
 
 	opacity: 0.4;
