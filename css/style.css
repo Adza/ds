@@ -466,3 +466,93 @@ a {
 }
 
 /* kraj tarika i kerima */
+
+/*Nermin*/
+.slike {
+
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.slike li {
+
+	float: left;
+	position: relative;
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+}
+
+
+.slike ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+.slike li hover {
+
+	cursor: pointer;
+}
+
+.slike li p {
+
+	position: absolute;
+	color: transparent;
+	font: 300 10px/90px 'Arvo', Helvetica, Arial, sans-serif;
+	width: 250px;
+	height: 250px;
+	top: 0;
+	left: 0;
+	text-align: center;
+	text-transform: uppercase;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.slike li:hover p {
+	color: white;
+	background: rgba(0,0,0,0.7);
+	z-index: 1;
+}
+
+.slike img {
+	width: 250px;
+	height: 250px;
+	
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.slike li:hover img {
+	height: 250px;
+	width: 250px;
+
+	opacity: 0.9;
+		filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+@media screen and (max-width: 1120px) {
+	  .slike {
+		width: 840px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	  .slike {
+		width: 560px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	  .slike {
+		width: 280px;
+	}
+}
