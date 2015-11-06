@@ -479,9 +479,10 @@ a {
 
 	float: left;
 	position: relative;
-	width: 250px;
-	height: 250px;
+	width: 240px;
+	height: 240px;
 	overflow: hidden;
+
 }
 
 
@@ -501,8 +502,8 @@ a {
 	position: absolute;
 	color: transparent;
 	font: 300 10px/90px 'Arvo', Helvetica, Arial, sans-serif;
-	width: 250px;
-	height: 250px;
+	width: 240px;
+	height: 240px;
 	top: 0;
 	left: 0;
 	text-align: center;
@@ -517,8 +518,8 @@ a {
 
 .slike li:hover p {
 	color: white;
-	background: rgba(0,0,0,0.7);
-	z-index: 1;
+	font-color: #8db0b0;
+	background-color:  #47334f
 }
 
 .slike img {
@@ -533,10 +534,10 @@ a {
 }
 
 .slike li:hover img {
-	height: 250px;
-	width: 250px;
+	height: 240px;
+	width: 240px;
 
-	opacity: 0.9;
+	opacity: 0.5;
 		filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
