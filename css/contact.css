@@ -16,13 +16,15 @@ label{
 }
 .kontakt-pitanje{
 	width:500px;
-	height:60px
+	height:60px;
+	/*resize: none;*/
+	resize: vertical;
 }
 .kontakt-forma, .kontakt-naslov{
 	position:relative;
 	display:block;
 	width:40%;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 }
 .kontakt-labela, .kontakt-heading{
 	font-family: helvetica;

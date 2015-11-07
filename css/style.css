@@ -28,8 +28,12 @@ body {
 }
 
 .naslov{
-	font-size: 28px;
-  padding:10px 20px;background:#fff;margin-bottom:20px;margin-top:-60px;box-shadow:0px 2px 5px #5d5d5d;
+  font-size: 28px;
+  padding:10px 20px;
+  background:#fff;
+  margin-bottom:20px;
+  margin-top:-25px;
+  box-shadow:0px 2px 5px #5d5d5d;
 }
 
 .info{
@@ -127,7 +131,7 @@ body {
 
 .nav-bar {
 	background-color: #47334f;
-	padding-right: 30px;
+	padding-right: 50px;
 	padding-top: 20px;
 	height: 50px;
 }
@@ -152,7 +156,7 @@ body {
 	border: none;
 	text-decoration: none;
 	color: black;
-	font-size: 16px;
+	font-size: 14px;
 	color:#fff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -480,7 +484,7 @@ a {
 	float: left;
 	position: relative;
 	width: 250px;
-	height: 250px;
+	height: 240px;
 	overflow: hidden;
 	list-style-type: none;
 
@@ -488,7 +492,6 @@ a {
 
 
 .slikeorg ul {
-	list-style-type: none;
 	overflow: hidden;
 }
 
@@ -496,18 +499,15 @@ a {
 .slikeorg li hover {
 
 	cursor: pointer;
-	list-style-type: none;
 }
 
 .slikeorg li p {
 
-	position: absolute;
 	color: transparent;
+	position: absolute;
 	font: 300 10px/90px 'Arvo', Helvetica, Arial, sans-serif;
 	width: 250px;
-	height: 250px;
-	top: 0;
-	left: 0;
+	height: 240px;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -520,15 +520,12 @@ a {
 
 .slikeorg li:hover p {
 	color: white;
-	font-color: #8db0b0;
-	background-color:  #47334f;
-	background-position: 100%;
-	list-style-type: none;
+	background-color:  #47334f;	
 }
 
 .slikeorg img {
 	width: 250px;
-	height: 250px;
+	height: 240px;
 	
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -538,10 +535,10 @@ a {
 }
 
 .slikeorg li:hover img {
-	height: 260px;
+	height: 240px;
 	width: 250px;
 
-	opacity: 0.5;
+	opacity: 0.4;
 		filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
