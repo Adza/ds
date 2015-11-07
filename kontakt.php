@@ -4,6 +4,7 @@
 		<title>About Sarajevo | Desing Sprint</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
+		 <link rel="stylesheet" href="css/contact.css">
 		<link rel="shortcut icon" href="favicon.ico">
 		<meta charset="UTF-8">
 		<!-- open graph -->
@@ -21,13 +22,13 @@
 				<div class="logo">
 					<a href="index.html"><img src="img/DSLogo66.png" /></a>
 				</div>
-				<a href="contact.php" class="dugme"><b>Contact us</b></a>	
+				<a href="kontakt.php" class="dugme"><b>Contact us</b></a>	
 				<a href="schedule.html" class="dugme"><b>Schedule</b></a>
 				<a href="organizers.html" class="dugme"><b>Organizers</b></a>
 				<a href="lcsarajevo.html" class="dugme"><b>EESTEC LC Sarajevo</b></a>
 				<a href="aboutsarajevo.html" class="dugme" style="color: #8db0b0"><b>Sarajevo</b></a>
 				<a href="designsprint.html" class="dugme"><b>Design Sprint</b></a>
-				<a href="index.html" class="dugme"><b>Home</b></a>			
+				<a href="index.html" class="dugme"><b>Home</b></a>
 			</div>
 		</div>
 
@@ -36,23 +37,72 @@
 			<!-- Block sa tekstom -->
 			<div class="block-50precent">
 				<div class="tekst">
-
 					<div class="naslov">
-						About Sarajevo
+						<div class="kontakt-naslov">
+				            Contact us!
+				        </div>	
 					</div>
 					<div class="info">
-						<p>Sarajevo, the capital of Bosnia and Herzegovina, surrounded by the Olimpic mountains, placed in the valley of Miljacka river.
-								It is the home of Nobel prize winners, Oscar winners, sports champions... It hosts world famous music, film and drama festivals, and welcomes all sorts of world renowned artists, from U2 to Milan's scale chorus. Being Bosnia's most important city, it has felt the full impact of Bosnia's century long reputation of being the point in Europe where East meets West. Because of this, the city is famous for its traditional religious diversity, with adherents of Islam, Orthodoxy, Catholicism and Judaism coexisiting there for centuries. </p>
+					
+			        <form class="kontakt-forma" method="post" action="contact.php">
+			            <label class="kontakt-labela">Name:</label>
+			            <input class="kontakt-text" type="text" name="ime"><br><br>
 
-								<p>A very famous and remembered event in the history of Sarajevo, and a significant date in modern history, is the assassination of the Archduke Franz Ferdinand, marking the beginning of World War I. Possibly, the most important moment of Sarajevos time was the 1984 Winter Olympic Games. The history of modern Sarajevo begins with the declaration of independence of Bosnia and Herzegovina.
-								Apart from its rich history and culture, Sarajevo hosts a plethora of cafes, bars, pubs, clubs shopping centers and other interesting destinations where both young and old come to unwind, such as the various hookah (or nargile) bars.</p>
-					</div>
-				</div>
+			            <label class="kontakt-labela">Email:</label>
+			            <input class="kontakt-text" type="email" name="email"><br><br>
 
-			</div>
+			            <label class="kontakt-labela">Message:</label>
+			            <textarea class="kontakt-pitanje" name="pitanje"></textarea><br><br>
+			            
+			            <input id="dugme-kontakt" type="submit" value="Submit" name="dodaj">
+			        </form>
+
+
+
+				        <?php
+				            if(isset($_REQUEST['dodaj'])){
+				                $imePrezime = $_POST['ime'];
+				                $email = $_POST['email'];
+				                $sadrzaj = $_POST['pitanje'];
+				                if(strlen($imePrezime) > 5 && filter_var($email, FILTER_VALIDATE_EMAIL)) {
+				                    $message = "Ime i prezime: ".$imePrezime."<br/>Email: ".$email."<br/><br/>".$sadrzaj;
+				                    $message = nl2br($message);
+				                    //send mail
+				                    $eol = PHP_EOL;
+				                    $from = "noreply@ds.eestec-sa.ba";
+				                    $subject = "[DS] Contact form!";
+				                    $separator = md5(time());
+				                    // glavni headeri
+				                    $headers  = "From: ".$from.$eol;
+				                    $headers .= "Reply-To: ".$from.$eol;
+				                    $headers .= "MIME-Version: 1.0".$eol;
+				                    $headers .= "Content-Type: multipart/mixed; boundary=\"".$separator."\"".$eol.$eol;
+				                    $headers .= "Content-Transfer-Encoding: 7bit".$eol;
+				                    $headers .= "This is a MIME encoded message.".$eol.$eol;
+				                    // message
+				                    $headers .= "--".$separator.$eol;
+				                    $headers .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
+				                    $headers .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
+				                    $headers .= $message.$eol.$eol;
+				                    // send message
+				                    mail("mirza.ohranovic@gmail.com", $subject, "", $headers);
+				                    mail("emir.dj93@gmail.com", $subject, "", $headers);
+				                    echo '<script>alert("Sent!");</script>';
+				                    //header("location:index.php");*/
+				                }
+				                else {
+				                    echo '<script>alert("Invalid name/email!");</script>';
+				                }
+				            }
+				            ob_end_flush();
+				        ?>
+				    </div>
+		       </div>
+		    </div>
 			<div class="block-50precent">
-				<div class="pictures">
-					<img style="width:100%;margin-top:15px;" src="http://fullhdwp.com/images/wallpapers/Sarajevo-nocu-wallpaper.jpg">
+					<div class="pictures">
+					<iframe width="600" height="450" frameborder="0" style="border:0;" 
+src="https://www.google.com/maps/embed/v1/view?zoom=11&center=43.8563,18.4131&key=AIzaSyA5kc9YuksnJSzZD07jzEISHGFqWfOScWk" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div style="clear:both;"></div>
