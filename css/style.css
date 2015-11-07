@@ -488,7 +488,6 @@ a {
 
 
 .slikeorg ul {
-	list-style-type: none;
 	overflow: hidden;
 }
 
@@ -496,18 +495,15 @@ a {
 .slikeorg li hover {
 
 	cursor: pointer;
-	list-style-type: none;
 }
 
 .slikeorg li p {
 
-	position: absolute;
 	color: transparent;
+	position: absolute;
 	font: 300 10px/90px 'Arvo', Helvetica, Arial, sans-serif;
 	width: 250px;
 	height: 240px;
-	top: 0;
-	left: 0;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -520,9 +516,7 @@ a {
 
 .slikeorg li:hover p {
 	color: white;
-	font-color: #8db0b0;
 	background-color:  #47334f;	
-	list-style-type: none;
 }
 
 .slikeorg img {
