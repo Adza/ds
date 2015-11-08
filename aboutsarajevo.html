@@ -12,6 +12,165 @@
             <meta property="og:site_name" content="Design Sprint"/>
             <meta property="og:description" content="Design sprint is an international workshop for creative electrical engineering students, with a purpose of teaching new graphical design skills. "/>
             <meta property="og:image" content="http://designsprint.eestec-sa.ba/img/og.png"/>
+
+     	<style>
+
+     		body.ds{
+		      -webkit-font-smoothing: antialiased;
+		      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+		      color: #232525;
+		      padding-top:70px;
+		    }
+
+			#slides {
+			  display: none;
+			  margin-bottom:50px;
+			  width: 600px;
+			  height: 700px;
+			  margin-top: 45px;
+			}
+
+			#slides .slidesjs-navigation {
+			  margin-top:5px;
+			}
+
+			a.slidesjs-next,
+			a.slidesjs-previous,
+			a.slidesjs-play,
+			a.slidesjs-stop {
+			  background-image: url(img/btns-next-prev.png);
+			  background-repeat: no-repeat;
+			  display:block;
+			  width:12px;
+			  height:18px;
+			  overflow: hidden;
+			  text-indent: -9999px;
+			  float: left;
+			  margin-right:5px;
+			}
+
+			a.slidesjs-next {
+			  margin-right:10px;
+			  background-position: -12px 0;
+			}
+
+			a:hover.slidesjs-next {
+			  background-position: -12px -18px;
+			}
+
+			a.slidesjs-previous {
+			  background-position: 0 0;
+			}
+
+			a:hover.slidesjs-previous {
+			  background-position: 0 -18px;
+			}
+
+			a.slidesjs-play {
+			  width:15px;
+			  background-position: -25px 0;
+			}
+
+			a:hover.slidesjs-play {
+			  background-position: -25px -18px;
+			}
+
+			a.slidesjs-stop {
+			  width:18px;
+			  background-position: -41px 0;
+			}
+
+			a:hover.slidesjs-stop {
+			  background-position: -41px -18px;
+			}
+
+			.slidesjs-pagination {
+			  margin: 7px 0 0;
+			  float: right;
+			  list-style: none;
+			}
+
+			.slidesjs-pagination li {
+			  float: left;
+			  margin: 0 1px;
+			}
+
+			.slidesjs-pagination li a {
+			  display: block;
+			  width: 13px;
+			  height: 0;
+			  padding-top: 13px;
+			  background-image: url(img/pagination.png);
+			  background-position: 0 0;
+			  float: left;
+			  overflow: hidden;
+			}
+
+			.slidesjs-pagination li a.active,
+			.slidesjs-pagination li a:hover.active {
+			  background-position: 0 -13px
+			}
+
+			.slidesjs-pagination li a:hover {
+			  background-position: 0 -26px
+			}
+
+			#slides a:link,
+			#slides a:visited {
+			  color: #333
+			}
+
+			#slides a:hover,
+			#slides a:active {
+			  color: #9e2020
+			}
+
+			.navbar {
+			  overflow: hidden
+			}
+
+			#slides {
+			  display: none
+			}
+
+			.container {
+			  margin: 0 auto
+			}
+
+			/* For tablets & smart phones */
+			@media (max-width: 767px) {
+			  body {
+			    padding-left: 20px;
+			    padding-right: 20px;
+			  }
+			  .container {
+			    width: auto
+			  }
+			}
+
+			/* For smartphones */
+			@media (max-width: 480px) {
+			  .container {
+			    width: auto
+			  }
+			}
+
+			/* For smaller displays like laptops */
+			@media (min-width: 768px) and (max-width: 979px) {
+			  .container {
+			    width: 724px
+			  }
+			}
+
+			/* For larger displays */
+			@media (min-width: 1200px) {
+			  .container {
+			    width: 1170px
+			  }
+			}
+
+     	</style>
+
 	</head>
 	<body>
 
@@ -21,13 +180,12 @@
 				<div class="logo">
 					<a href="index.html"><img src="img/DSLogo66.png" /></a>
 				</div>
-				<a href="contact.php" class="dugme"><b>Contact us</b></a>	
 				<a href="schedule.html" class="dugme"><b>Schedule</b></a>
 				<a href="organizers.html" class="dugme"><b>Organizers</b></a>
 				<a href="lcsarajevo.html" class="dugme"><b>EESTEC LC Sarajevo</b></a>
 				<a href="aboutsarajevo.html" class="dugme" style="color: #8db0b0"><b>Sarajevo</b></a>
 				<a href="designsprint.html" class="dugme"><b>Design Sprint</b></a>
-				<a href="index.html" class="dugme"><b>Home</b></a>			
+				<a href="index.html" class="dugme"><b>Home</b></a>
 			</div>
 		</div>
 
@@ -50,11 +208,21 @@
 				</div>
 
 			</div>
+
+
 			<div class="block-50precent">
-				<div class="pictures">
-					<img style="width:100%;margin-top:15px;" src="http://fullhdwp.com/images/wallpapers/Sarajevo-nocu-wallpaper.jpg">
-				</div>
-			</div>
+		        <div class="pictures">
+		          <div class="container">
+		                  <div id="slides">
+		                    <img src="img/sarajevo.jpg" alt="Sarajevo">
+		                    <img src="img/s.jpg" alt="This is Sarajevo">
+		                    <img src="img/rajvosa.jpg" alt="Beautiful Sarajevo">
+		                    <img src="img/sar.jpg" alt="Rajvosa">
+		                   </div>
+	              	</div>
+	        	</div>
+    	    </div>
+
 			<div style="clear:both;"></div>
 		</div>
 		<div class="footer">
@@ -101,6 +269,22 @@
 			</div>
 		</div>
 
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery.slides.min.js"></script>
+		   <script>
+		    $(function() {
+		      $('#slides').slidesjs({
+		        width: 940,
+		        height: 528,
+		        play: {
+		          active: true,
+		          auto: true,
+		          interval: 4000,
+		          swap: true
+		        }
+		      });
+		    });
+		  </script>
 
 	</body>
 </html>
