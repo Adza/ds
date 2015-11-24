@@ -85,8 +85,8 @@
 				                    $headers .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
 				                    $headers .= $message.$eol.$eol;
 				                    // send message
-				                    mail("mirza.ohranovic@gmail.com", $subject, "", $headers);
-				                    mail("emir.dj93@gmail.com", $subject, "", $headers);
+				                    mail("smajlovic.delila@gmail.com", $subject, "", $headers);
+				                    mail("armin.omerbegovic93@gmail.com", $subject, "", $headers);
 				                    echo '<script>alert("Sent!");</script>';
 				                    //header("location:index.php");*/
 				                }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About Sarajevo | Desing Sprint</title>
+        <title>Contact us | Desing Sprint</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
          <link rel="stylesheet" href="css/contact.css">
@@ -24,7 +24,6 @@
                 </div>
                 <a href="contact.php" class="dugme" style="color: #8db0b0"><b>Contact us</b></a>   
                 <a href="schedule.html" class="dugme"><b>Schedule</b></a>
-                <a href="organizers.html" class="dugme"><b>Organizers</b></a>
                 <a href="lcsarajevo.html" class="dugme"><b>EESTEC LC Sarajevo</b></a>
                 <a href="aboutsarajevo.html" class="dugme"><b>Sarajevo</b></a>
                 <a href="designsprint.html" class="dugme"><b>Design Sprint</b></a>
@@ -32,7 +31,7 @@
             </div>
         </div>
 
-        <div class="cover-sarajevo"></div>
+        <div class="cover-contact"></div>
         <div class="block-container">
             <!-- Block sa tekstom -->
             <div class="block-50precent">
@@ -101,8 +100,8 @@
             </div>
             <div class="block-50precent">
                     <div class="pictures">
-                    <iframe width="600" height="450" frameborder="0" style="border:0;" 
-src="https://www.google.com/maps/embed/v1/view?zoom=11&center=43.8563,18.4131&key=AIzaSyA5kc9YuksnJSzZD07jzEISHGFqWfOScWk" allowfullscreen></iframe>
+                    <iframe width="600" height="350" frameborder="0" style="border:0;" 
+                    src="https://www.google.com/maps/embed/v1/view?zoom=11&center=43.8563,18.4131&key=AIzaSyA5kc9YuksnJSzZD07jzEISHGFqWfOScWk" allowfullscreen></iframe>
                 </div>
             </div>
             <div style="clear:both;"></div>
