@@ -65,8 +65,8 @@
 				                $email = $_POST['email'];
 				                $sadrzaj = $_POST['pitanje'];
 				                if(strlen($imePrezime) > 5 && filter_var($email, FILTER_VALIDATE_EMAIL)) {
-				                    $message = "Ime i prezime: ".$imePrezime."<br/>Email: ".$email."<br/><br/>".$sadrzaj;
-				                    $message = nl2br($message);
+				                    $content = "Ime i prezime: ".$imePrezime."<br/>Email: ".$email."<br/><br/>".$sadrzaj;
+				                    $content = nl2br($content);
 				                    //send mail
 				                    $eol = PHP_EOL;
 				                    $from = "noreply@ds.eestec-sa.ba";
@@ -76,17 +76,18 @@
 				                    $headers  = "From: ".$from.$eol;
 				                    $headers .= "Reply-To: ".$from.$eol;
 				                    $headers .= "MIME-Version: 1.0".$eol;
-				                    $headers .= "Content-Type: multipart/mixed; boundary=\"".$separator."\"".$eol;
-				                    $headers .= "Content-Transfer-Encoding: 7bit".$eol;
-				                    $headers .= "This is a MIME encoded message.".$eol;
+				                    $headers .= "Content-Type: multipart/mixed; boundary=\"".$separator."\"";
+				                    $message .= "--".$separator.$eol;
+				                    $message .= "Content-Transfer-Encoding: 7bit".$eol;
+				                    $message .= "This is a MIME encoded message.".$eol;
 				                    // message
-				                    $headers .= "--".$separator.$eol;
-				                    $headers .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
-				                    $headers .= "Content-Transfer-Encoding: 8bit".$eol;
-				                    $headers .= $message.$eol;
+				                    $message .= "--".$separator.$eol;
+				                    $message .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
+				                    $message .= "Content-Transfer-Encoding: 8bit".$eol;
+				                    $message .= $content.$eol;
 				                    // send message
-				                    mail("smajlovic.delila@gmail.com", $subject, "", $headers);
-				                    mail("armin.omerbegovic93@gmail.com", $subject, "", $headers);
+				                    mail("smajlovic.delila@gmail.com", $subject, $message, $headers);
+				                    mail("armin.omerbegovic93@gmail.com", $subject, $message, $headers);
 				                    echo '<script>alert("Sent!");</script>';
 				                    //header("location:index.php");*/
 				                }
