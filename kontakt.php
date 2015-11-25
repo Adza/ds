@@ -76,13 +76,13 @@
 				                    $headers  = "From: ".$from.$eol;
 				                    $headers .= "Reply-To: ".$from.$eol;
 				                    $headers .= "MIME-Version: 1.0".$eol;
-				                    $headers .= "Content-Type: multipart/mixed; boundary=\"".$separator."\"".$eol.$eol;
+				                    $headers .= "Content-Type: multipart/mixed; boundary=\"".$separator."\"".$eol;
 				                    $headers .= "Content-Transfer-Encoding: 7bit".$eol;
-				                    $headers .= "This is a MIME encoded message.".$eol.$eol;
+				                    $headers .= "This is a MIME encoded message.".$eol;
 				                    // message
 				                    $headers .= "--".$separator.$eol;
 				                    $headers .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
-				                    $headers .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
+				                    $headers .= "Content-Transfer-Encoding: 8bit".$eol;
 				                    $headers .= $message.$eol;
 				                    // send message
 				                    mail("smajlovic.delila@gmail.com", $subject, "", $headers);
