@@ -89,6 +89,7 @@
 				                    mail("smajlovic.delila@gmail.com", $subject, $message, $headers);
 				                    mail("armin.omerbegovic93@gmail.com", $subject, $message, $headers);
 				                    echo '<script>alert("Sent!");</script>';
+				                    
 				                    //header("location:index.php");*/
 				                }
 				                else {
