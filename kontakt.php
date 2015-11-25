@@ -83,7 +83,7 @@
 				                    $headers .= "--".$separator.$eol;
 				                    $headers .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
 				                    $headers .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
-				                    $headers .= $message.$eol.$eol;
+				                    $headers .= $message.$eol;
 				                    // send message
 				                    mail("smajlovic.delila@gmail.com", $subject, "", $headers);
 				                    mail("armin.omerbegovic93@gmail.com", $subject, "", $headers);
