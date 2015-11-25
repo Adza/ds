@@ -84,9 +84,10 @@
                                     $message .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
                                     $message .= "Content-Transfer-Encoding: 8bit".$eol;
                                     $message .= $content.$eol;
+                                    $message .= "--".$separator."--";
                                     // send message
                                     mail("smajlovic.delila@gmail.com", $subject, $message, $headers);
-                                    mail("armin.omerbegovic93@gmail.com", $subject, $message, $headers);
+                                    mail("armin.omerbegovic@gmail.com", $subject, $message, $headers);
                                     mail("emir.dj93@gmail.com", $subject, $message, $headers);
                                     echo '<script>alert("Sent!");</script>';
                                     
