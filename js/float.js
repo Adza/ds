@@ -58,7 +58,13 @@ $(document).ready(function(){
   }, 800, function() {
   });
 
-  $('.balon').animate({
+$( "#skew9" ).animate({
+    left: "+=150",
+    top: "-=150"
+  }, 800, function() {
+  });
+
+ $('.balon').animate({
     top: "-=320"
   }, 1200, function() {
   });
@@ -68,3 +74,4 @@ $(document).ready(function(){
   oblak();
 
 });
+

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About Sarajevo | Desing Sprint</title>
+        <title>Contact us | Desing Sprint</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
          <link rel="stylesheet" href="css/contact.css">
@@ -24,7 +24,6 @@
                 </div>
                 <a href="contact.php" class="dugme" style="color: #8db0b0"><b>Contact us</b></a>   
                 <a href="schedule.html" class="dugme"><b>Schedule</b></a>
-                <a href="organizers.html" class="dugme"><b>Organizers</b></a>
                 <a href="lcsarajevo.html" class="dugme"><b>EESTEC LC Sarajevo</b></a>
                 <a href="aboutsarajevo.html" class="dugme"><b>Sarajevo</b></a>
                 <a href="designsprint.html" class="dugme"><b>Design Sprint</b></a>
@@ -32,7 +31,7 @@
             </div>
         </div>
 
-        <div class="cover-sarajevo"></div>
+        <div class="cover-contact"></div>
         <div class="block-container">
             <!-- Block sa tekstom -->
             <div class="block-50precent">
@@ -59,14 +58,14 @@
 
 
 
-                        <?php
+                       <?php
                             if(isset($_REQUEST['dodaj'])){
                                 $imePrezime = $_POST['ime'];
                                 $email = $_POST['email'];
                                 $sadrzaj = $_POST['pitanje'];
                                 if(strlen($imePrezime) > 5 && filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                                    $message = "Ime i prezime: ".$imePrezime."<br/>Email: ".$email."<br/><br/>".$sadrzaj;
-                                    $message = nl2br($message);
+                                    $content = "Ime i prezime: ".$imePrezime."<br/>Email: ".$email."<br/><br/>".$sadrzaj;
+                                    $content = nl2br($content);
                                     //send mail
                                     $eol = PHP_EOL;
                                     $from = "noreply@ds.eestec-sa.ba";
@@ -76,18 +75,22 @@
                                     $headers  = "From: ".$from.$eol;
                                     $headers .= "Reply-To: ".$from.$eol;
                                     $headers .= "MIME-Version: 1.0".$eol;
-                                    $headers .= "Content-Type: multipart/mixed; boundary=\"".$separator."\"".$eol.$eol;
-                                    $headers .= "Content-Transfer-Encoding: 7bit".$eol;
-                                    $headers .= "This is a MIME encoded message.".$eol.$eol;
+                                    $headers .= "Content-Type: multipart/mixed; boundary=\"".$separator."\"";
+                                    $message .= "--".$separator.$eol;
+                                    $message .= "Content-Transfer-Encoding: 7bit".$eol;
+                                    $message .= "This is a MIME encoded message.".$eol;
                                     // message
-                                    $headers .= "--".$separator.$eol;
-                                    $headers .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
-                                    $headers .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
-                                    $headers .= $message.$eol.$eol;
+                                    $message .= "--".$separator.$eol;
+                                    $message .= "Content-Type: text/html; charset=\"UTF-8\"".$eol;
+                                    $message .= "Content-Transfer-Encoding: 8bit".$eol;
+                                    $message .= $content.$eol;
+                                    $message .= "--".$separator."--";
                                     // send message
-                                    mail("mirza.ohranovic@gmail.com", $subject, "", $headers);
-                                    mail("emir.dj93@gmail.com", $subject, "", $headers);
+                                    mail("smajlovic.delila@gmail.com", $subject, $message, $headers);
+                                    mail("armin.omerbegovic@gmail.com", $subject, $message, $headers);
+                                    mail("emir.dj93@gmail.com", $subject, $message, $headers);
                                     echo '<script>alert("Sent!");</script>';
+                                    
                                     //header("location:index.php");*/
                                 }
                                 else {
@@ -101,8 +104,8 @@
             </div>
             <div class="block-50precent">
                     <div class="pictures">
-                    <iframe width="600" height="450" frameborder="0" style="border:0;" 
-src="https://www.google.com/maps/embed/v1/view?zoom=11&center=43.8563,18.4131&key=AIzaSyA5kc9YuksnJSzZD07jzEISHGFqWfOScWk" allowfullscreen></iframe>
+                    <iframe width="600" height="350" frameborder="0" style="border:0;" 
+                    src="https://www.google.com/maps/embed/v1/view?zoom=11&center=43.8563,18.4131&key=AIzaSyA5kc9YuksnJSzZD07jzEISHGFqWfOScWk" allowfullscreen></iframe>
                 </div>
             </div>
             <div style="clear:both;"></div>
