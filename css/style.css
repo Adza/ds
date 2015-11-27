@@ -577,8 +577,8 @@ a {
 	background:#fff;
 	padding:10px 20px 5px 20px;
 	margin-top:20px;
-  	box-shadow:0px 2px 5px #5d5d5d;
   	
+  	border-bottom-width: 0px;
   	height: auto;
 }
 
@@ -588,7 +588,6 @@ a {
 	display: none;
 	background:#fff;
 	padding: 0px 20px 0px 20px;
-  	box-shadow:0px 1px 5px #5d5d5d;
   	overflow: hidden;
   	height: auto;
 }
@@ -596,5 +595,7 @@ a {
 .read-more { 
 	text-decoration: none;
 }
+
+/*-----------NOVOSTI Tarik --------------*/
 
 
