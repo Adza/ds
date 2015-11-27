@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News | Desing Sprint</title>
+    <link rel="stylesheet" href="css/style.css?v=4">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <!-- open graph -->
+            <meta property="og:title" content="Design Sprint" />
+            <meta property="og:url" content="http://designsprint.eestec-sa.ba"/>
+            <meta property="og:site_name" content="Design Sprint"/>
+            <meta property="og:description" content="Design sprint is an international workshop for creative electrical engineering students, with a purpose of teaching new graphical design skills. "/>
+            <meta property="og:image" content="http://designsprint.eestec-sa.ba/img/og.png"/>
+
+
+        <style>
+
+          body.ds{
+          -webkit-font-smoothing: antialiased;
+          font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+          color: #232525;
+          padding-top:70px;
+        }
+
+          #slides {
+        display: none;
+        margin-bottom:50px;
+        width: 600px;
+        height: 700px;
+        margin-top: 45px;
+      }
+
+      #slides .slidesjs-navigation {
+        margin-top:5px;
+      }
+
+      a.slidesjs-next,
+      a.slidesjs-previous,
+      a.slidesjs-play,
+      a.slidesjs-stop {
+        background-image: url(img/btns-next-prev.png);
+        background-repeat: no-repeat;
+        display:block;
+        width:12px;
+        height:18px;
+        overflow: hidden;
+        text-indent: -9999px;
+        float: left;
+        margin-right:5px;
+      }
+
+      a.slidesjs-next {
+        margin-right:10px;
+        background-position: -12px 0;
+      }
+
+      a:hover.slidesjs-next {
+        background-position: -12px -18px;
+      }
+
+      a.slidesjs-previous {
+        background-position: 0 0;
+      }
+
+      a:hover.slidesjs-previous {
+        background-position: 0 -18px;
+      }
+
+      a.slidesjs-play {
+        width:15px;
+        background-position: -25px 0;
+      }
+
+      a:hover.slidesjs-play {
+        background-position: -25px -18px;
+      }
+
+      a.slidesjs-stop {
+        width:18px;
+        background-position: -41px 0;
+      }
+
+      a:hover.slidesjs-stop {
+        background-position: -41px -18px;
+      }
+
+      .slidesjs-pagination {
+        margin: 7px 0 0;
+        float: right;
+        list-style: none;
+      }
+
+      .slidesjs-pagination li {
+        float: left;
+        margin: 0 1px;
+      }
+
+      .slidesjs-pagination li a {
+        display: block;
+        width: 13px;
+        height: 0;
+        padding-top: 13px;
+        background-image: url(img/pagination.png);
+        background-position: 0 0;
+        float: left;
+        overflow: hidden;
+      }
+
+      .slidesjs-pagination li a.active,
+      .slidesjs-pagination li a:hover.active {
+        background-position: 0 -13px
+      }
+
+      .slidesjs-pagination li a:hover {
+        background-position: 0 -26px
+      }
+
+      #slides a:link,
+      #slides a:visited {
+        color: #333
+      }
+
+      #slides a:hover,
+      #slides a:active {
+        color: #9e2020
+      }
+
+      .navbar {
+        overflow: hidden
+      }
+
+      #slides {
+        display: none
+      }
+
+      .container {
+        margin: 0 auto
+      }
+
+      /* For tablets & smart phones */
+      @media (max-width: 767px) {
+        body {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .container {
+          width: auto
+        }
+      }
+
+      /* For smartphones */
+      @media (max-width: 480px) {
+        .container {
+          width: auto
+        }
+      }
+
+      /* For smaller displays like laptops */
+      @media (min-width: 768px) and (max-width: 979px) {
+        .container {
+          width: 724px
+        }
+      }
+
+      /* For larger displays */
+      @media (min-width: 1200px) {
+        .container {
+          width: 1170px
+        }
+      }
+
+        </style>
+
+  </head>
+  <body>
+
+      <div class="nav-bar">
+        <div class="block-container">
+          <div class="logo">
+            <a href="index.html"><img src="img/DSLogo66.png" /></a>
+          </div>
+          <a href="contact.php" class="dugme"><b>Contact us</b></a> 
+          <a href="schedule.html" class="dugme"><b>Schedule</b></a>
+          <a href="organizers.html" class="dugme"><b>Organizers</b></a>
+          <a href="lcsarajevo.html" class="dugme" style="color: #8db0b0"><b>EESTEC LC Sarajevo</b></a>
+          <a href="aboutsarajevo.html" class="dugme"><b>Sarajevo</b></a>
+          <a href="designsprint.html" class="dugme"><b>Design Sprint</b></a>
+          <a href="index.html" class="dugme"><b>Home</b></a>
+        </div>
+      </div>
+
+
+
+      <div class="cover-lcsarajevo"></div>
+      <div class="block-container">
+        <!-- Block sa tekstom -->
+        <div class="block-50precent">
+          <div class="tekst">
+
+            <div class="naslov">
+              News
+            </div>
+            <!-- OVDJE SE UBACUJU NOVOSTI, novost ubaciti ispod zadnje novosti i napraviti jedan red komentara sa crticama(-) da bi bilo citljivo :) -->
+            <div>
+               <a class="read-more" href="#">
+                <div class="contentParent" title="Click to read more" id="Tarik">
+                <p> In the summer of  2006, a group of young and motivated students came together, combined their ideas, and focused all their effort into forming EESTEC LC Sarajevo, and with that joined the unique EESTEC family. Noone was surprised when the then small LC Sarajevo grew into a large and powerful organization that gathers a big number of enthusiastic students full of positive energy, eager to meet new people and broaden their horizons.</p>
+                </div>
+              
+                <div class="content">
+                <p> EESTEC Sarajevo is now a mosaic of <b>200 active and alumni members</b>, and with each new piece, it becomes more diverse. Each individual contributes with their creativity, <b>ideas and knowledge</b> making it possible for LC Sarajevo, as a team, to achieve big things! Our mission is to promote electrical engineering students, and to make it possible for them to travel to major European cities in order to improve their technical knowledge, foreign languages, but also to acquire unique values, <b>lifelong memories</b>, to learn to appreciate different cultures and become richer with every friend they make. </p>
+                </div>
+              </a>
+            </div>
+              <!-- ----------------------------------------------------------------------------------------------------------- -->
+            
+          </div>
+
+        </div>
+
+        <div class="block-50precent">
+              <div class="pictures">
+                <div class="container">
+                      <div id="slides">
+                        <a href = "designsprint.html"><img src="img/timeline.png" alt="1st"></a>
+                        <a href = "index.html"><img src="img/lcsarajevo.jpg" alt="2nd"></a>
+                     </div>
+                </div>
+              </div>
+          </div>
+
+
+        <div style="clear:both;"></div>
+
+      </div>
+
+      <div class="footer">
+        <div class="block-container">
+          <div class="block-33precent">
+            <div style="width:20px;height:20px;"></div>
+          </div>
+          <div class="block-33precent">
+            <div style="color:#fff;padding:20px;">
+
+
+              <a href="https://www.facebook.com/eestecsarajevo" target="_blank"><img class="hoverfb" src="img/fb.png" style="float:left;margin-bottom:10px;" /> <span style="line-height:46px;margin-left:20px;">Facebook</span></a>
+              <div style="clear:both;"></div>
+            <a href="https://instagram.com/eestec_lc_sarajevo/" target="_blank"><img class="hoverig" src="img/ig.png" style="float:left;margin-bottom:10px;" /> <span style="line-height:46px;margin-left:20px;">Instagram</span> </a>
+              <div style="clear:both;"></div>
+            <a href="https://twitter.com/eestecSarajevo" target="_blank"><img class="hovertw" src="img/tw.png"  style="float:left;margin-bottom:10px;"/> <span style="line-height:46px;margin-left:20px;">Twitter</span></a>
+              <div style="clear:both;"></div>
+            <img src="img/footer-logo.png" style="width:50%;"/>
+              <div style="clear:both;"></div><br />
+            </div>
+          </div>
+          <div class="block-33precent">
+            <div style="color:#fff;padding:20px;">
+            <b>Contact Info</b>
+              <br />
+                <br />
+            <b>Delila Smajlović</b><br />
+          <a href="mailto:delila.smajlovic@eestec-sa.ba">delila.smajlovic@eestec-sa.ba</a><br />
+          Event Contact Person
+            <br />
+              <br />
+              <b>Mirza Kupusović</b><br />
+              <a href="mailto:mirza.kupusovic@eestec-sa.ba">mirza.kupusovic@eestec-sa.ba</a><br />
+              Head Organizer
+              <br />
+                <br />
+                <b>Besim Arnautović</b><br />
+                <a href="besim.arnautovic@eestec-sa.ba">besim.arnautovic@eestec-sa.ba<br />
+                PR Team Leader
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script src="js/jquery.slides.min.js"></script>
+       <script>
+        $(function() {
+          $('#slides').slidesjs({
+            width: 940,
+            height: 528,
+            play: {
+              active: true,
+              auto: true,
+              interval: 4000,
+              swap: true
+            }
+          });
+        });
+      </script>
+      <script src="js/expander.js"></script>
+      <script>
+      $('.read-more').simpleexpand();
+      </script>
+
+  </body>
+</html>

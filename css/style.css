@@ -377,7 +377,7 @@ a {
 
 .tekst{
 	position: relative;
-  margin-top: 40px;
+  	margin-top: 40px;
 	color: #47334f;
 	text-align: justify;
 	font-size: 16px;
@@ -480,28 +480,6 @@ a {
  -webkit-animation: fadein 2s ease-in alternate infinite;
 }*/
 
-/*tarik  i kerim footer*/
-#futer {
-	display
-	width: 100%;
-}
-
-#lijevi {
-	background-color: red;
-	height: 150px;
-}
-
-#srednji {
-	background-color: blue;
-	height: 150px;
-}
-
-#desni {
-	background-color: green;
-	height: 150px;
-}
-
-/* kraj tarika i kerima */
 
 /*Nermin*/
 .slikeorg {
@@ -591,4 +569,32 @@ a {
 		width: 280px;
 	}
 }
+
+/*-----------NOVOSTI Tarik --------------*/
+
+.contentParent {
+	color: black;
+	background:#fff;
+	padding:10px 20px 5px 20px;
+	margin-top:20px;
+  	box-shadow:0px 2px 5px #5d5d5d;
+  	
+  	height: auto;
+}
+
+.content {
+	color: black;
+	margin-top: 0px;
+	display: none;
+	background:#fff;
+	padding: 0px 20px 0px 20px;
+  	box-shadow:0px 1px 5px #5d5d5d;
+  	overflow: hidden;
+  	height: auto;
+}
+
+.read-more { 
+	text-decoration: none;
+}
+
 
