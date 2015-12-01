@@ -8,10 +8,11 @@
 	width: 580px;
 }
 
+
 .izgled{
 	list-style: none;
 	margin: 0 auto;
-	width: 100%;
+	width: 83%;
 	vertical-align: baseline;
 	margin-left: 120px;
 }
@@ -31,7 +32,7 @@
 	list-style: none;
 	
 	margin: 0 auto;
-	width: 100%;
+	width: 83%;
 	vertical-align: baseline;
 }
 
@@ -40,7 +41,7 @@
 	display: inline-block;
 	margin: 10px 5px 0 5px;
 	vertical-align: top;
-	left: 220px;
+	left: 150px;
 }
 
 .izgled2 li img {
@@ -50,4 +51,35 @@
 
 #no {
 	margin-left: 220px;
+}
+
+.imgWrap {
+  position: relative;
+  height: 230px;
+  width: 220px;
+
+}
+
+.imgDescription {
+  position: absolute;
+  top: -11px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.71);
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  visibility: hidden;
+  opacity: 0;
+  font-family: 'Roboto slab', sans-serif;
+  text-transform: uppercase;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
 }

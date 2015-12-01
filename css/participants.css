@@ -51,3 +51,34 @@
 	width: 220px;
 	height: 220px;
 }
+
+.imgWrap {
+  position: relative;
+  height: 230px;
+  width: 220px;
+
+}
+
+.imgDescription {
+  position: absolute;
+  top: -11px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.71);
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  visibility: hidden;
+  opacity: 0;
+  font-family: 'Roboto slab', sans-serif;
+  text-transform: uppercase;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
