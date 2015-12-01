@@ -27,3 +27,63 @@ a.flakes[d].melting&&a.flakes[d].melt();c<a.flakesMaxActive&&(d=a.flakes[parseIn
 function(){a.timer=!0;a.snow()};this.init=function(){var c;for(c=0;c<a.meltFrameCount;c++)a.meltFrames.push(1-c/a.meltFrameCount);a.randomizeWind();a.createSnow(a.flakesMax);a.events.add(g,"resize",a.resizeHandler);a.events.add(g,"scroll",a.scrollHandler);a.freezeOnBlur&&(m?(a.events.add(f,"focusout",a.freeze),a.events.add(f,"focusin",a.resume)):(a.events.add(g,"blur",a.freeze),a.events.add(g,"focus",a.resume)));a.resizeHandler();a.scrollHandler();a.followMouse&&a.events.add(m?f:g,"mousemove",a.mouseMove);
 a.animationInterval=Math.max(20,a.animationInterval);a.timerInit()};this.start=function(c){if(B){if(c)return!0}else B=!0;if("string"===typeof a.targetElement&&(c=a.targetElement,a.targetElement=f.getElementById(c),!a.targetElement))throw Error('Snowstorm: Unable to get targetElement "'+c+'"');a.targetElement||(a.targetElement=f.body||f.documentElement);a.targetElement!==f.documentElement&&a.targetElement!==f.body&&(a.resizeHandler=a.resizeHandlerAlt,a.usePixelPosition=!0);a.resizeHandler();a.usePositionFixed=
 a.usePositionFixed&&!r&&!a.flakeBottom;if(g.getComputedStyle)try{w="relative"===g.getComputedStyle(a.targetElement,null).getPropertyValue("position")}catch(d){w=!1}t=a.usePositionFixed;h&&(l&&!a.disabled)&&(a.init(),a.active=!0)};a.autoStart&&a.events.add(g,"load",y,!1);return this}(window,document);
+
+$(document).ready(function(){
+  $( ".skew1" ).animate({
+    left: "+=150",
+    top: "+=150"
+  }, 800, function() {
+  });
+
+  $( ".skew2" ).animate({
+    left: "-=150",
+    top: "-=150"
+  }, 800, function() {
+  });
+
+  $( "#skew3" ).animate({
+    left: "+=150",
+    top: "+=150"
+  }, 800, function() {
+  });
+
+  $( "#skew4" ).animate({
+    left: "-=150",
+    top: "+=150"
+  }, 800, function() {
+  });
+
+  $( "#skew5" ).animate({
+    left: "+=200",
+    top: "-=200"
+  }, 800, function() {
+  });
+
+  $( "#skew6" ).animate({
+    left: "+=200",
+    top: "-=150"
+  }, 800, function() {
+  });
+
+  $( "#skew7" ).animate({
+    left: "-=150",
+    top: "+=150"
+  }, 800, function() {
+  });
+
+$( "#skew9" ).animate({
+    left: "+=150",
+    top: "-=150"
+  }, 800, function() {
+  });
+
+ $('.balon').animate({
+    top: "-=320"
+  }, 1200, function() {
+  });
+
+  floating();
+  sunce();
+  oblak();
+
+});

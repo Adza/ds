@@ -76,46 +76,9 @@ body {
 
 .dugme {
   display: block;
-  margin: auto;
+  width: auto;
 }
 
-.okvirCD{
-	position: absolute;
-	background-color: #47334f;
-	left: 330px;
-	top: 10px;
-	width: 550px;
-	height: 50px;
-	display: table;
-	font-family: 'Roboto', sans-serif;
-	font-weight: normal;
-	font-size: 16px;
-}
-
-.okvirCD p{
-	display:table-cell;
-	vertical-align: middle;
-	text-align:left;
-	padding-left:5px;
-}
-
-#apply {
-	position: relative;
-	background-color: #47334f!important;
-	padding-right: 30px;
-	padding-top: 20px;
-	height: 50px;
-	text-align: center;
-	color: white;
-	box-shadow: 0px 4px 4px #313131;
-	font-size: 20px;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	-webkit-animation-name: spustanje;
-    -webkit-animation-duration: 4s;
-    animation-name: spustanje;
-    animation-duration: 4s;
-}
 
 /*spustanje home nav bara */
 @-webkit-keyframes spustanje {
@@ -151,17 +114,17 @@ body {
 	float: right;
 	margin-top: 50px;
 	line-height: 30px;
-	margin:0px 15px;
+	margin:0 10px;
 	border: none;
 	text-decoration: none;
 	color: black;
-	font-size: 15px;
+	font-size: 14px;
 	color:#fff;
-	font-weight: 500;
 	text-transform: uppercase;
 	font-family: 'Roboto slab', sans-serif;
 	padding-bottom: 1px;
 }
+
 
 .nav-bar .dugme:hover{
 	cursor: pointer;
@@ -470,6 +433,56 @@ a {
    border-bottom: 2px solid #47334f;
 
 }
+
+.cover-partneri{
+	height:280px;
+   background:url('http://www.urscapitalpartners.com/wp-content/uploads/2013/01/bigstock-handshake-isolated-on-business-21885998.jpg'); no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+   background-position-y:-321px;
+   border-bottom: 2px solid #47334f;
+}
+
+.cover-media{
+	height:280px;
+   background:url('http://www.romancatholicman.com/wp-content/uploads/2015/09/media.jpg'); no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+   background-position-y:-200px;
+   border-bottom: 2px solid #47334f;
+}
+
+.cover-organizers{
+	height:280px;
+   background:url('https://static.pexels.com/photos/174/coffee-apple-iphone-laptop-large.jpg'); no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+   background-position-y:-466px;
+   border-bottom: 2px solid #47334f;
+}
+
+.cover-participants{
+	height:280px;
+	background-color: #fff;
+   background:url('http://www.userzoom.com/wp-content/uploads/2015/04/Recruitingpng.png'); no-repeat center center fixed;
+   background-color: #fff;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+   background-position-y:-328px;
+   border-bottom: 2px solid #47334f;
+}
 /*
 @-webkit-keyframes fadeout {
     0% { opacity: 1; }
@@ -497,6 +510,7 @@ a {
 	height: 240px;
 	overflow: hidden;
 	list-style-type: none;
+	margin: 10px 5px 0px 5px;
 
 }
 
@@ -516,8 +530,8 @@ a {
 	color: transparent;
 	position: absolute;
 	font: 300 10px/90px 'Arvo', Helvetica, Arial, sans-serif;
-	width: 250px;
-	height: 240px;
+	width: 220px;
+	height: 210px;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -577,8 +591,8 @@ a {
 	background:#fff;
 	padding:10px 20px 5px 20px;
 	margin-top:20px;
-  	box-shadow:0px 2px 5px #5d5d5d;
   	
+  	border-bottom-width: 0px;
   	height: auto;
 }
 
@@ -588,7 +602,6 @@ a {
 	display: none;
 	background:#fff;
 	padding: 0px 20px 0px 20px;
-  	box-shadow:0px 1px 5px #5d5d5d;
   	overflow: hidden;
   	height: auto;
 }
@@ -596,5 +609,7 @@ a {
 .read-more { 
 	text-decoration: none;
 }
+
+/*-----------NOVOSTI Tarik --------------*/
 
 

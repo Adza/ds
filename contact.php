@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/contact.css">
         <link rel="shortcut icon" href="favicon.ico">
+        
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
         <meta charset="UTF-8">
         <!-- open graph -->
             <meta property="og:title" content="Design Sprint" />
@@ -24,6 +27,10 @@
                 </div>
                 <a href="contact.php" class="dugme" style="color: #8db0b0"><b>Contact us</b></a>   
                 <a href="schedule.html" class="dugme"><b>Schedule</b></a>
+                <a href="participants.html" class="dugme"><b>Participants</b></a>
+                <a href="mediji.html" class="dugme"><b>Media</b></a>
+                <a href="partners.html" class="dugme"><b>Partners</b></a>
+                <a href="organizers.html" class="dugme"><b>Organizers</b></a>
                 <a href="lcsarajevo.html" class="dugme"><b>EESTEC LC Sarajevo</b></a>
                 <a href="aboutsarajevo.html" class="dugme"><b>Sarajevo</b></a>
                 <a href="designsprint.html" class="dugme"><b>Design Sprint</b></a>
@@ -45,6 +52,7 @@
                     
                     <form class="kontakt-forma" method="post" action="contact.php">
                         <label class="kontakt-labela">Name</label>
+
                         <input class="kontakt-text" type="text" placeholder="Name" name="ime"><br><br>
 
                         <label class="kontakt-labela">Email</label>
@@ -52,6 +60,7 @@
 
                         <label class="kontakt-labela">Message</label>
                         <textarea class="kontakt-pitanje" placeholder="Message..." name="pitanje"></textarea><br><br>
+
                         
                         <input id="dugme-kontakt" type="submit" value="Submit" name="dodaj">
                     </form>
