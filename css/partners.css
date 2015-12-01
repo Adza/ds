@@ -28,7 +28,6 @@
 	height: auto;
 	margin: auto;
 	overflow: hidden;
-	margin-left: 400px;
 }
 ul li{
 	display: inline;
@@ -60,18 +59,44 @@ div ul li {
 	margin-left: 320px;
 }
 
-#klix{
+#redbull{
 	position: relative;
 	width: 300px;
 	margin-bottom: 30px;
-	margin-left: 250;
 	
 }
 
-#bhmagazin {
+#microsoft{
 	position: relative;
-	height: 50px;
-	width: 250px;
-	left: 90px;
+	width: 422px;
+	margin-bottom: 50px;
+	left: -10px;
+}
+
+#api{
+	position: relative;
+	width: 380px;
+	margin-bottom: 35px;
+}
+
+#networks{
+	position: relative;
+	width: 380px;
+	margin-bottom: 35px;
+	left: 310px;
+}
+#vita {
+	position: relative;
+	width: 120px;
+	height: 153px;
+	left: 80px;
+	margin-bottom: 10px;
+}
+
+#mostarlic {
+	position: relative;
+	height: 115px;
+	width: 150px;
+	left: 105px;
 	margin-bottom: 25px;
 }
