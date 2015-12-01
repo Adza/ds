@@ -4,7 +4,7 @@
         <title>Contact us | Desing Sprint</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
-         <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/contact.css">
         <link rel="shortcut icon" href="favicon.ico">
         <meta charset="UTF-8">
         <!-- open graph -->
@@ -44,14 +44,14 @@
                     <div class="info">
                     
                     <form class="kontakt-forma" method="post" action="contact.php">
-                        <label class="kontakt-labela">Name:</label>
-                        <input class="kontakt-text" type="text" name="ime"><br><br>
+                        <label class="kontakt-labela">Name</label>
+                        <input class="kontakt-text" type="text" placeholder="Name" name="ime"><br><br>
 
-                        <label class="kontakt-labela">Email:</label>
-                        <input class="kontakt-text" type="email" name="email"><br><br>
+                        <label class="kontakt-labela">Email</label>
+                        <input class="kontakt-text" type="email" placeholder="Email" name="email"><br><br>
 
-                        <label class="kontakt-labela">Message:</label>
-                        <textarea class="kontakt-pitanje" name="pitanje"></textarea><br><br>
+                        <label class="kontakt-labela">Message</label>
+                        <textarea class="kontakt-pitanje" placeholder="Message..." name="pitanje"></textarea><br><br>
                         
                         <input id="dugme-kontakt" type="submit" value="Submit" name="dodaj">
                     </form>
