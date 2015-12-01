@@ -13,14 +13,16 @@ label{
 	font-size:100%;
 }
 .kontakt-text{
-	width:575px;
+	margin: 3px;
+	width:570px;
 	height: 27px;
-	padding-left: 4px;
+	padding-left: 6px;
 }
 .kontakt-pitanje{
-	width:575px;
+	width:570px;
 	height:80px;
-	padding-left: 4px;
+	padding-left: 6px;
+	padding-top: 7px;
 	font-family: helvetica;
 	/*resize: none;*/
 	resize: vertical;
@@ -34,8 +36,5 @@ label{
 .kontakt-labela, .kontakt-heading{
 	font-family: helvetica;
 	font-weight: bold;
-}
-.kontakt-heading{
-	width:180px;
-	border-bottom: 11px solid #2da2c8;
+	margin: 4px;
 }

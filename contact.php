@@ -6,9 +6,6 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/contact.css">
         <link rel="shortcut icon" href="favicon.ico">
-        
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
         <meta charset="UTF-8">
         <!-- open graph -->
             <meta property="og:title" content="Design Sprint" />
@@ -52,7 +49,6 @@
                     
                     <form class="kontakt-forma" method="post" action="contact.php">
                         <label class="kontakt-labela">Name</label>
-
                         <input class="kontakt-text" type="text" placeholder="Name" name="ime"><br><br>
 
                         <label class="kontakt-labela">Email</label>
