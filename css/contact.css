@@ -2,35 +2,13 @@ label{
 	display:block;
 }
 #dugme-kontakt{
+	margin-left: 400px;
 	width:180px;
-	font-family:helvetica;
+	font-family: helvetica;
 	background: #47334f;
 	border: 0;
 	color:white;
 	height:40px;
 	border-radius:2px;
 	font-size:100%;
-}
-.kontakt-text{
-	width:500px;
-}
-.kontakt-pitanje{
-	width:500px;
-	height:60px;
-	/*resize: none;*/
-	resize: vertical;
-}
-.kontakt-forma, .kontakt-naslov{
-	position:relative;
-	display:block;
-	width:40%;
-	/*margin: 0 auto;*/
-}
-.kontakt-labela, .kontakt-heading{
-	font-family: helvetica;
-	font-weight: bold;
-}
-.kontakt-heading{
-	width:180px;
-	border-bottom: 11px solid #2da2c8;
 }
