@@ -73,6 +73,13 @@ div ul li {
 	position: relative;
 	height: 50px;
 	width: 250px;
-	left: 90px;
+	left: -50px;
+	margin-bottom: 25px;
+}
+#hocu{
+	position: relative;
+	height: 75px;
+	width: 170px;
+	left: 0px;
 	margin-bottom: 25px;
 }

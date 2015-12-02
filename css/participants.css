@@ -82,3 +82,22 @@
   visibility: visible;
   opacity: 1;
 }
+
+.izgled3{
+	list-style: none;
+	margin: 0 auto;
+	width: auto;
+	vertical-align: baseline;
+	margin-left: 220px;
+}
+
+.izgled3 li {
+	position: relative;
+	display: inline-block;
+	margin: 10px 5px 0 5px;
+	vertical-align: top;
+}
+.izgled3 li img {
+	width: 220px;
+	height: 220px;
+}

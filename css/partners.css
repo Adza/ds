@@ -70,20 +70,28 @@ div ul li {
 	position: relative;
 	width: 422px;
 	margin-bottom: 50px;
-	left: -10px;
+	left: 0px;
 }
 
 #api{
 	position: relative;
 	width: 380px;
 	margin-bottom: 35px;
+	
 }
 
 #networks{
 	position: relative;
 	width: 380px;
 	margin-bottom: 35px;
-	left: 310px;
+	left: 150px;
+}
+
+#hcc{
+	position: relative;
+	width: 240px;
+	margin-bottom: 35px;
+	left: 230px;
 }
 #vita {
 	position: relative;
@@ -100,3 +108,4 @@ div ul li {
 	left: 105px;
 	margin-bottom: 25px;
 }
+
