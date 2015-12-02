@@ -586,30 +586,72 @@ a {
 
 /*-----------NOVOSTI Tarik --------------*/
 
-.contentParent {
-	color: black;
-	background:#fff;
-	padding:10px 20px 5px 20px;
-	margin-top:20px;
+.contentAbove {
+	 background:#fff;
+	 padding:10px 20px;
+	 margin-bottom:20px;
+  	-webkit-box-shadow:0px 2px 5px #5d5d5d;
+  	-moz-box-shadow:0px 2px 5px #5d5d5d;
+  	box-shadow:0px 2px 5px #5d5d5d;
   	
   	border-bottom-width: 0px;
-  	height: auto;
 }
 
 .content {
-	color: black;
-	margin-top: 0px;
 	display: none;
+	color: #47334f;
+}
+
+.novosti {
+	float: left;
 	background:#fff;
-	padding: 0px 20px 0px 20px;
-  	overflow: hidden;
-  	height: auto;
+	padding:10px 10px 10px 10px;
+	margin-bottom:20px;
+  	-webkit-box-shadow:0px 2px 5px #5d5d5d;
+  	-moz-box-shadow:0px 2px 5px #5d5d5d;
+  	box-shadow:0px 2px 5px #5d5d5d;
 }
 
-.read-more { 
-	text-decoration: none;
+.novostiSlika {
+	display: table;
+	margin: auto;
 }
 
+.novostiSlikaLarge {
+	display: table;
+	padding-top: 3em;
+	padding-bottom: auto;
+	margin: auto;
+}
+
+.novostiSlikaLarge img {
+	display: table-cell;
+	height: 300px;
+	width: auto;
+}
+
+.novostiSlika img {
+	display: table-cell;
+	height: 200px;
+	width: auto;
+}
+
+.novostiSlika img:hover {
+	-webkit-transform:scale(1); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+     transform:scale(1);
+}
+
+#IDnaslov {
+	font-size: 28px;
+  	padding:10px 20px;
+  	background:#fff;
+  	margin-bottom: -30px;
+  	margin-top: -30px;
+  	box-shadow:0px 2px 5px #5d5d5d;
+}
 /*-----------NOVOSTI Tarik --------------*/
 
 

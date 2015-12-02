@@ -300,6 +300,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                 }
 
                 that.setInitialState(expander, targets);
+                
+
 
                 // hook the click on the expander
                 expander.click(function () {

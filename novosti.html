@@ -13,169 +13,11 @@
             <meta property="og:site_name" content="Design Sprint"/>
             <meta property="og:description" content="Design sprint is an international workshop for creative electrical engineering students, with a purpose of teaching new graphical design skills. "/>
             <meta property="og:image" content="http://designsprint.eestec-sa.ba/img/og.png"/>
-
-
-        <style>
-
-          body.ds{
-          -webkit-font-smoothing: antialiased;
-          font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-          color: #232525;
-          padding-top:70px;
-        }
-
-          #slides {
-        display: none;
-        margin-bottom:50px;
-        width: 600px;
-        height: 700px;
-        margin-top: 45px;
-      }
-
-      #slides .slidesjs-navigation {
-        margin-top:5px;
-      }
-
-      a.slidesjs-next,
-      a.slidesjs-previous,
-      a.slidesjs-play,
-      a.slidesjs-stop {
-        background-image: url(img/btns-next-prev.png);
-        background-repeat: no-repeat;
-        display:block;
-        width:12px;
-        height:18px;
-        overflow: hidden;
-        text-indent: -9999px;
-        float: left;
-        margin-right:5px;
-      }
-
-      a.slidesjs-next {
-        margin-right:10px;
-        background-position: -12px 0;
-      }
-
-      a:hover.slidesjs-next {
-        background-position: -12px -18px;
-      }
-
-      a.slidesjs-previous {
-        background-position: 0 0;
-      }
-
-      a:hover.slidesjs-previous {
-        background-position: 0 -18px;
-      }
-
-      a.slidesjs-play {
-        width:15px;
-        background-position: -25px 0;
-      }
-
-      a:hover.slidesjs-play {
-        background-position: -25px -18px;
-      }
-
-      a.slidesjs-stop {
-        width:18px;
-        background-position: -41px 0;
-      }
-
-      a:hover.slidesjs-stop {
-        background-position: -41px -18px;
-      }
-
-      .slidesjs-pagination {
-        margin: 7px 0 0;
-        float: right;
-        list-style: none;
-      }
-
-      .slidesjs-pagination li {
-        float: left;
-        margin: 0 1px;
-      }
-
-      .slidesjs-pagination li a {
-        display: block;
-        width: 13px;
-        height: 0;
-        padding-top: 13px;
-        background-image: url(img/pagination.png);
-        background-position: 0 0;
-        float: left;
-        overflow: hidden;
-      }
-
-      .slidesjs-pagination li a.active,
-      .slidesjs-pagination li a:hover.active {
-        background-position: 0 -13px
-      }
-
-      .slidesjs-pagination li a:hover {
-        background-position: 0 -26px
-      }
-
-      #slides a:link,
-      #slides a:visited {
-        color: #333
-      }
-
-      #slides a:hover,
-      #slides a:active {
-        color: #9e2020
-      }
-
-      .navbar {
-        overflow: hidden
-      }
-
-      #slides {
-        display: none
-      }
-
-      .container {
-        margin: 0 auto
-      }
-
-      /* For tablets & smart phones */
-      @media (max-width: 767px) {
-        body {
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-        .container {
-          width: auto
-        }
-      }
-
-      /* For smartphones */
-      @media (max-width: 480px) {
-        .container {
-          width: auto
-        }
-      }
-
-      /* For smaller displays like laptops */
-      @media (min-width: 768px) and (max-width: 979px) {
-        .container {
-          width: 724px
-        }
-      }
-
-      /* For larger displays */
-      @media (min-width: 1200px) {
-        .container {
-          width: 1170px
-        }
-      }
-
-        </style>
-
+            <script src="js/expander.js"></script>
+            <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
-
+          </script>
       <div class="nav-bar">
         <div class="block-container">
           <div class="logo">
@@ -196,45 +38,83 @@
       <div class="cover-lcsarajevo"></div>
       <div class="block-container">
         <!-- Block sa tekstom -->
-        <div class="block-50precent">
-          <div class="tekst">
+          <div class="block-50precent">
+            <div class="tekst">
 
-            <div class="naslov">
-              News
+              <div class="naslov">
+                About EESTEC LC Sarajevo
+              </div>
             </div>
-            <!-- OVDJE SE UBACUJU NOVOSTI, novost ubaciti ispod zadnje novosti i napraviti jedan red komentara sa crticama(-) da bi bilo citljivo :) -->
-            <div style="box-shadow:0px 2px 5px #5d5d5d">
-               <a class="read-more" href="#">
-                <div class="contentParent" title="Click to read more">
-                <p> In the summer of  2006, a group of young and motivated students came together, combined their ideas, and focused all their effort into forming EESTEC LC Sarajevo, and with that joined the unique EESTEC family. Noone was surprised when the then small LC Sarajevo grew into a large and powerful organization that gathers a big number of enthusiastic students full of positive energy, eager to meet new people and broaden their horizons.</p>
-                </div>
-              
-                <div class="content">
-                <p> EESTEC Sarajevo is now a mosaic of <b>200 active and alumni members</b>, and with each new piece, it becomes more diverse. Each individual contributes with their creativity, <b>ideas and knowledge</b> making it possible for LC Sarajevo, as a team, to achieve big things! Our mission is to promote electrical engineering students, and to make it possible for them to travel to major European cities in order to improve their technical knowledge, foreign languages, but also to acquire unique values, <b>lifelong memories</b>, to learn to appreciate different cultures and become richer with every friend they make. </p>
-                </div>
-              </a>
-            </div>
-              <!-- ----------------------------------------------------------------------------------------------------------- -->
-            
           </div>
-
-        </div>
-
-        <div class="block-50precent">
-              <div class="pictures">
-                <div class="container">
-                      <div id="slides">
-                        <img src="img/timeline.png" alt="1st">
-                        <img src="img/lcsarajevo.jpg" alt="2nd">
-                     </div>
+          <div style="clear:both;"></div>
+      <div id="jednaNovost">
+          <div class="novosti">
+            <div class="block-50precent">
+              <div class="tekst">
+                <div id="IDnaslov">
+                  NOVOST
                 </div>
               </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="block-50precent">
+              <div class="tekst">
+                  <div class="contentAbove">
+                    <p>In the summer of  2006, a group of young and motivated students came together, combined their ideas, and focused all their effort into forming EESTEC LC Sarajevo, and with that joined the unique EESTEC family.
+                    <p>Noone was surprised when the then small LC Sarajevo grew into a large and powerful organization that gathers a big number of enthusiastic students full of positive energy, eager to meet new people and broaden their horizons.</p>
+                    <div class="content">
+                      
+                      <p> EESTEC Sarajevo is now a mosaic of <b>200 active and alumni members</b>, and with each new piece, it becomes more diverse. Each individual contributes with their creativity, <b>ideas and knowledge</b> making it possible for LC Sarajevo, as a team, to achieve big things! Our mission is to promote electrical engineering students, and to make it possible for them to travel to major European cities in order to improve their technical knowledge, foreign languages, but also to acquire unique values, <b>lifelong memories</b>, to learn to appreciate different cultures and become richer with every friend they make. </p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="block-50precent" style="width: 595px">
+              <div class="novostiSlika">
+                <img src="img/eestec.JPG">
+              </div>
+            </div>
           </div>
-
-
-        <div style="clear:both;"></div>
-
       </div>
+      <div id="jednaNovost">
+          <div style="clear:both;"></div>
+          <div class="novosti">
+            <div class="block-50precent">
+              <div class="tekst">
+                <div id="IDnaslov">
+                  NOVOST
+                </div>
+              </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="block-50precent">
+            
+              <div class="tekst">
+                  <div class="contentAbove">
+                    <p>Sarajevo, the capital of Bosnia and Herzegovina, surrounded by the Olimpic mountains, placed in the valley of Miljacka river.
+                      It is the home of Nobel prize winners, Oscar winners, sports champions... It hosts world famous music, film and drama festivals, and welcomes all sorts of world renowned artists, from U2 to Milan's scale chorus.
+
+                    <div class="content">
+                      
+                      <p>Sarajevo, the capital of Bosnia and Herzegovina, surrounded by the Olimpic mountains, placed in the valley of Miljacka river.
+                      It is the home of Nobel prize winners, Oscar winners, sports champions... It hosts world famous music, film and drama festivals, and welcomes all sorts of world renowned artists, from U2 to Milan's scale chorus. Being Bosnia's most important city, it has felt the full impact of Bosnia's century long reputation of being the point in Europe where East meets West. Because of this, the city is famous for its traditional religious diversity, with adherents of Islam, Orthodoxy, Catholicism and Judaism coexisiting there for centuries. </p>
+
+                      <p>A very famous and remembered event in the history of Sarajevo, and a significant date in modern history, is the assassination of the Archduke Franz Ferdinand, marking the beginning of World War I. Possibly, the most important moment of Sarajevos time was the 1984 Winter Olympic Games. The history of modern Sarajevo begins with the declaration of independence of Bosnia and Herzegovina.
+                      Apart from its rich history and culture, Sarajevo hosts a plethora of cafes, bars, pubs, clubs shopping centers and  other interesting destinations where both young and old come to unwind, such as the various hookah (or nargile) bars.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="block-50precent" style="width: 595px">
+              <div class="novostiSlika">
+                <img src="img/graphic1.JPG">
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+      <div style="clear:both;"></div>
+
 
       <div class="footer">
         <div class="block-container">
@@ -279,26 +159,26 @@
 
         </div>
       </div>
-      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-      <script src="js/jquery.slides.min.js"></script>
-       <script>
-        $(function() {
-          $('#slides').slidesjs({
-            width: 940,
-            height: 528,
-            play: {
-              active: true,
-              auto: true,
-              interval: 4000,
-              swap: true
-            }
-          });
+      
+      
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/expander.js"></script>
+        <script type="text/javascript">
+        $(function () {
+            $('.novosti').simpleexpand();
         });
-      </script>
-      <script src="js/expander.js"></script>
-      <script>
-      $('.read-more').simpleexpand();
-      </script>
-
+        </script>
+        <script type="text/javascript">
+        $('.novosti').toggle(function () {
+            var temp = $(this).children().find('.novostiSlika');
+            temp.hide();
+            temp.toggleClass("novostiSlika novostiSlikaLarge").show("slow");},
+                function () {
+                    var temp = $(this).children().find('.novostiSlikaLarge');
+                    temp.toggleClass("novostiSlikaLarge novostiSlika").hide();
+                    temp.show("slow");
+                
+        });
+        </script>
   </body>
 </html>
