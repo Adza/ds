@@ -90,6 +90,43 @@
             <div class="block-50precent">
             
               <div class="tekst">
+                    <div class="contentAbove">
+                    <p>Sarajevo, the capital of Bosnia and Herzegovina, surrounded by the Olimpic mountains, placed in the valley of Miljacka river.
+                      It is the home of Nobel prize winners, Oscar winners, sports champions... It hosts world famous music, film and drama festivals, and welcomes all sorts of world renowned artists, from U2 to Milan's scale chorus.
+
+                        <div class="content">
+                      
+                           <p>Sarajevo, the capital of Bosnia and Herzegovina, surrounded by the Olimpic mountains, placed in the valley of Miljacka river.
+                           It is the home of Nobel prize winners, Oscar winners, sports champions... It hosts world famous music, film and drama festivals, and welcomes all sorts of world renowned artists, from U2 to Milan's scale chorus. Being Bosnia's most important city, it has felt the full impact of Bosnia's century long reputation of being the point in Europe where East meets West. Because of this, the city is famous for its traditional religious diversity, with adherents of Islam, Orthodoxy, Catholicism and Judaism coexisiting there for centuries. </p>
+
+                           <p>A very famous and remembered event in the history of Sarajevo, and a significant date in modern history, is the assassination of the Archduke Franz Ferdinand, marking the beginning of World War I. Possibly, the most important moment of Sarajevos time was the 1984 Winter Olympic Games. The history of modern Sarajevo begins with the declaration of independence of Bosnia and Herzegovina.
+                           Apart from its rich history and culture, Sarajevo hosts a plethora of cafes, bars, pubs, clubs shopping centers and  other interesting destinations where both young and old come to unwind, such as the various hookah (or nargile) bars.</p>
+                        </div>
+                    </div>
+              </div>
+            </div>
+            <div class="block-50precent" style="width: 595px">
+                <div class="novostiSlika">
+                    <img src="img/graphic1.JPG">
+                </div>
+            </div>
+          </div>
+      </div>
+      <div style="clear:both;"></div>
+      <div id="jednaNovost">
+          <div style="clear:both;"></div>
+          <div class="novosti">
+            <div class="block-50precent">
+              <div class="tekst">
+                <div id="IDnaslov">
+                  NOVOST
+                </div>
+              </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div class="block-50precent">
+            
+              <div class="tekst">
                   <div class="contentAbove">
                     <p>Sarajevo, the capital of Bosnia and Herzegovina, surrounded by the Olimpic mountains, placed in the valley of Miljacka river.
                       It is the home of Nobel prize winners, Oscar winners, sports champions... It hosts world famous music, film and drama festivals, and welcomes all sorts of world renowned artists, from U2 to Milan's scale chorus.
@@ -115,14 +152,13 @@
     </div>
       <div style="clear:both;"></div>
 
-
       <div class="footer">
         <div class="block-container">
           <div class="block-33precent">
             <div style="width:20px;height:20px;"></div>
           </div>
           <div class="block-33precent">
-            <div style="color:#fff;padding:20px;">
+            <div style="color:#fff;padding:20px; ">
 
 
               <a href="https://www.facebook.com/eestecsarajevo" target="_blank"><img class="hoverfb" src="img/fb.png" style="float:left;margin-bottom:10px;" /> <span style="line-height:46px;margin-left:20px;">Facebook</span></a>
@@ -131,7 +167,7 @@
               <div style="clear:both;"></div>
             <a href="https://twitter.com/eestecSarajevo" target="_blank"><img class="hovertw" src="img/tw.png"  style="float:left;margin-bottom:10px;"/> <span style="line-height:46px;margin-left:20px;">Twitter</span></a>
               <div style="clear:both;"></div>
-            <img src="img/footer-logo.png" style="width:50%;"/>
+            <img src="img/footer-logo.png" style="width:50%; "/>
               <div style="clear:both;"></div><br />
             </div>
           </div>
@@ -140,18 +176,18 @@
             <b>Contact Info</b>
               <br />
                 <br />
-            <b>Delila Smajlović</b><br />
-          <a href="mailto:delila.smajlovic@eestec-sa.ba">delila.smajlovic@eestec-sa.ba</a><br />
-          Event Contact Person
-            <br />
-              <br />
-              <b>Mirza Kupusović</b><br />
-              <a href="mailto:mirza.kupusovic@eestec-sa.ba">mirza.kupusovic@eestec-sa.ba</a><br />
-              Head Organizer
-              <br />
+               <b>Delila Smajlović</b><br />
+               <a href="mailto:delila.smajlovic@eestec-sa.ba">delila.smajlovic@eestec-sa.ba</a><br />
+                Event Contact Person
+                 <br />
+                  <br />
+                <b>Mirza Kupusović</b><br />
+                <a href="mailto:mirza.kupusovic@eestec-sa.ba">mirza.kupusovic@eestec-sa.ba</a><br />
+                Head Organizer
+                 <br />
                 <br />
                 <b>Besim Arnautović</b><br />
-                <a href="besim.arnautovic@eestec-sa.ba">besim.arnautovic@eestec-sa.ba<br />
+                <a href="besim.arnautovic@eestec-sa.ba">besim.arnautovic@eestec-sa.ba</a><br />
                 PR Team Leader
             </div>
           </div>
@@ -160,7 +196,7 @@
         </div>
       </div>
       
-      
+      </body>
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <script type="text/javascript" src="js/expander.js"></script>
         <script type="text/javascript">
@@ -180,5 +216,13 @@
                 
         });
         </script>
-  </body>
+        <script>
+        $(document).ready(function (){
+            $(".novosti").click(function (){
+                $('body').animate({scrollTop: $(this).offset().top}, 500);
+
+            }
+            );
+          });
+        </script>
 </html>
