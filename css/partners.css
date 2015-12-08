@@ -95,17 +95,72 @@ div ul li {
 }
 #vita {
 	position: relative;
-	width: 120px;
-	height: 153px;
-	left: 80px;
-	margin-bottom: 10px;
+	width: 130px;
+	height: 163px;
+	left: -250px;
+	margin-bottom: 75px;
 }
 
 #mostarlic {
 	position: relative;
-	height: 115px;
-	width: 150px;
-	left: 105px;
-	margin-bottom: 25px;
+	height: 125px;
+	width: 160px;
+	left: -10px;
+	margin-bottom: 70px;
 }
 
+#mci {
+	position: relative;
+	height: 170px;
+	width: 170px;
+	left: -150px;
+	margin-bottom: 70px;
+}
+
+#kiseljak {
+	position: relative;
+	height: 100px;
+	width: 220px;
+	left: -80px;
+	margin-bottom: 110px;
+}
+
+#menprom {
+	position: relative;
+	height: 100px;
+	width: 220px;
+	left: -40px;
+	margin-bottom: 100px;
+}
+
+#bb {
+	position: relative;
+	height: 85px;
+	width: 225px;
+	left: -230px;
+	margin-bottom: 100px;
+}
+
+#viva {
+	position: relative;
+	height: 100px;
+	width: 220px;
+	left: -110px;
+	margin-bottom: 90px;
+}
+
+#jager {
+	position: relative;
+	height: 100px;
+	width: 220px;
+	left: -30px;
+	margin-bottom: 90px;
+}
+
+#podravka {
+	position: relative;
+	height: 100px;
+	width: 220px;
+	left: 120px;
+	margin-bottom: 90px;
+}

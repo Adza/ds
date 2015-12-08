@@ -64,10 +64,35 @@ $( "#skew9" ).animate({
   }, 800, function() {
   });
 
+$( "#skew10" ).animate({
+    left: "-=150",
+    top: "-=150"
+  }, 800, function() {
+  });
+
+  $( "#skew11" ).animate({
+    left: "+=150",
+    top: "-=150"
+  }, 800, function() {
+  });
+
+   $( "#skew12" ).animate({
+    left: "-=150",
+    top: "-=150"
+  }, 800, function() {
+  });
+
+    $( "#skew13" ).animate({
+    left: "+=150",
+    top: "+=150"
+  }, 800, function() {
+  });
+
  $('.balon').animate({
     top: "-=320"
   }, 1200, function() {
   });
+
 
   floating();
   sunce();

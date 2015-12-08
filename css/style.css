@@ -151,16 +151,16 @@ a {
 #skew1 {
 	height: 200px;
 	width: 200px;
-	top: 100px;
-	left: 200px;
+	top: 80px;
+	left: 58px;
 	background: url(../img/DSLogo.png);
 }
 
 #skew2 {
 	height: 100px;
 	width: 100px;
-	top: 170px;
-	left: 700px;
+	top: 150px;
+	left: 558px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -182,8 +182,8 @@ a {
 #skew3 {
 	height: 100px;
 	width: 100px;
-	top: -150px;
-	left: 480px;
+	top: -170px;
+	left: 338px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -204,8 +204,8 @@ a {
 #skew4 {
 	height: 100px;
 	width: 100px;
-	top: -250px;
-	left: 930px;
+	top: -270px;
+	left: 797px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -226,8 +226,8 @@ a {
 #skew5 {
 	height: 50px;
 	width: 50px;
-	top: 3px;
-	left: 646px;
+	top: -417px;
+	left: 674px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -247,8 +247,8 @@ a {
 #skew6 {
 	height: 50px;
 	width: 50px;
-	top: -58px;
-	left: 686px;
+	top: -478px;
+	left: 714px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -268,8 +268,8 @@ a {
 #skew7 {
 	height: 50px;
 	width: 50px;
-	top: -445px;
-	left: 1075px;
+	top: -865px;
+	left: 1103px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -289,8 +289,8 @@ a {
 #skew8 {
 	height: 52px;
 	width: 52px;
-	top: -385px;
-	left: 885px;
+	top: -800px;
+	left: 915px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -311,8 +311,8 @@ a {
 #skew9 {
 	height: 100px;
 	width: 100px;
-	top: 30px;
-	left: 400px;
+	top: 10px;
+	left: 258px;
 	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
@@ -329,6 +329,90 @@ a {
     -o-transform:scale(1.2); /* Opera */
      transform:scale(1.2);
 }
+
+#skew10 {
+	height: 100px;
+	width: 100px;
+	top: -90px;
+	left: 718px;
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+	background: url(../img/eestec.png);
+	color: transparent;
+}
+
+#skew10:hover{
+	-webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+     transform:scale(1.2);
+}
+
+#skew11 {
+	height: 100px;
+	width: 100px;
+	top: -190px;
+	left: 578px;
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+	background: url(../img/eestec.png);
+	color: transparent;
+}
+
+#skew11:hover{
+	-webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+}
+
+#skew12 {
+	height: 100px;
+	width: 100px;
+	top: -370px;
+	left: 958px;
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+	background: url(../img/eestec.png);
+	color: transparent;
+}
+#skew12:hover{
+	-webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+}
+
+#skew13 {
+	height: 100px;
+	width: 100px;
+	top: -850px;
+	left: 417px;
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+	background: url(../img/eestec.png);
+	color: transparent;
+}
+#skew13:hover{
+	-webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+}
+
 
 .slike{
 	position: relative;
