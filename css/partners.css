@@ -105,8 +105,8 @@ div ul li {
 	position: relative;
 	height: 125px;
 	width: 160px;
-	left: -10px;
-	margin-bottom: 70px;
+	left: -200px;
+	margin-bottom: 150px;
 }
 
 #mci {
@@ -161,6 +161,14 @@ div ul li {
 	position: relative;
 	height: 100px;
 	width: 220px;
-	left: 120px;
-	margin-bottom: 90px;
+	left: -50px;
+	margin-bottom: 170px;
+}
+
+#tuborg {
+	position: relative;
+	height: 130px;
+	width: 220px;
+	left: 30px;
+	margin-bottom: 150px;
 }
