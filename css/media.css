@@ -99,3 +99,38 @@ div ul li {
 	left: -160px;
 	margin-bottom: 35px;
 }
+#cafe{
+	position: relative;
+	height: 115px;
+	width: 190px;
+	left: -270px;
+	margin-bottom: 40px;
+}
+#haber{
+	position: relative;
+	height: 55px;
+	width: 181px;
+	left: -220px;
+	margin-bottom: 50px;
+}
+#radiom{
+	position: relative;
+	height: 55px;
+	width: 181px;
+	left: -180px;
+	margin-bottom: 50px;
+}
+#studomat{
+	position: relative;
+	height: 55px;
+	width: 181px;
+	left: -125px;
+	margin-bottom: 50px;
+}
+#unsa{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	left: 130px;
+	margin-bottom: 50px;
+}
