@@ -1,0 +1,42 @@
+#body{
+	height: 400px;
+}
+.kocka {
+	width: 220px;
+	height: 220px;
+	overflow:hidden;
+	color: #f0485e;
+	text-align: center;
+}
+
+#dan1 {
+	position: relative;
+	top: 50px;
+	left: 30px;
+	color: transparent;
+	background-color: blue;
+}
+
+#dan2 {
+	position: relative;
+	top: -169px;
+	left: 360px;
+	color: transparent;
+	background-color: blue;
+}
+
+#dan3 {
+	position: relative;
+	top: -389px;
+	left: 680px;
+	color: transparent;
+	background-color: blue;
+}
+
+#dan4 {
+	position: relative;
+	top: -609px;
+	left: 1000px;
+	color: transparent;
+	background-color: blue;
+}
