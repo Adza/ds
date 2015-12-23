@@ -6,10 +6,10 @@
 		<link rel="stylesheet" href="css/responsive.css">
 		<link rel="stylesheet" href="css/media.css">
 		<link rel="stylesheet" href="css/dani.css">
-		<link rel="stylesheet" href="css/colorbox.css">
+		<link rel="stylesheet" href="css/lightbox.css">
 		<link rel="shortcut icon" href="favicon.ico">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/jquery.colorbox.js"></script>
+		<script src="js/lightbox.min.js"></script>
 		<meta charset="UTF-8">
 		<!-- open graph -->
             <meta property="og:title" content="Design Sprint" />
@@ -17,35 +17,6 @@
             <meta property="og:site_name" content="Design Sprint"/>
             <meta property="og:description" content="Design sprint is an international workshop for creative electrical engineering students, with a purpose of teaching new graphical design skills. "/>
             <meta property="og:image" content="http://designsprint.eestec-sa.ba/img/og.png"/>
-		<script>$(document).ready(function(){
-				//Examples of how to assign the Colorbox event to elements
-				$(".group1").colorbox({rel:'group1'});
-				$(".group2").colorbox({rel:'group2', transition:"fade"});
-				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
-				$(".group4").colorbox({rel:'group4', slideshow:true});
-				$(".ajax").colorbox();
-				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
-				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
-				$(".inline").colorbox({inline:true, width:"50%"});
-				$(".callbacks").colorbox({
-					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
-				});
-
-				$('.non-retina').colorbox({rel:'group5', transition:'none'})
-				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
-
-				//Example of preserving a JavaScript event for inline calls.
-				$("#click").click(function(){
-					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-					return false;
-				});
-			});
-			</script>
 	</head>
 	<body>
 		<div class="nav-bar">
@@ -83,26 +54,26 @@
 							<div class = "wrapper">
 							 <div class = "slike">
         						<br><br>
-								<a class="group1 cboxElement" title="1" href="img/gallery/day2/IMG_1776.jpg"><img src = "img/gallery/day2/IMG_1776.jpg"></a>
-								<a class="group1 cboxElement" title="2" href="img/gallery/day2/IMG_1778.jpg"><img src = "img/gallery/day2/IMG_1778.jpg"></a>
-								<img src = "img/gallery/day2/IMG_1785.jpg">
-								<img src = "img/gallery/day2/IMG_1790.jpg">
-								<img src = "img/gallery/day2/IMG_1808.jpg">
-								<img src = "img/gallery/day2/IMG_1812.jpg">
-								<img src = "img/gallery/day2/IMG_1815.jpg">
-								<img src = "img/gallery/day2/IMG_1817.jpg">
-								<img src = "img/gallery/day2/IMG_1810.jpg">
-								<img src = "img/gallery/day2/IMG_1819.jpg">
-								<img src = "img/gallery/day2/IMG_1823.jpg">
-								<img src = "img/gallery/day2/IMG_1844.jpg">
-								<img src = "img/gallery/day2/IMG_1858.jpg">
-								<img src = "img/gallery/day2/IMG_1874.jpg">
-								<img src = "img/gallery/day2/IMG_1878.jpg">
-								<img src = "img/gallery/day2/IMG_1881.jpg">
-								<img src = "img/gallery/day2/IMG_1885.jpg">
-								<img src = "img/gallery/day2/IMG_1887.jpg">
-								<img src = "img/gallery/day2/IMG_1895.jpg">
-								<img src = "img/gallery/day2/IMG_1897.jpg">
+								<a href="img/gallery/day2/IMG_1776.png" data-lightbox="dan2" data-title="Pic1"><img src = "img/gallery/day2/IMG_1776_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1776.png"></a>
+								<a href="img/gallery/day2/IMG_1778.png" data-lightbox="dan2" data-title="Pic2"><img src = "img/gallery/day2/IMG_1778_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1778.png"></a>
+								<a href="img/gallery/day2/IMG_1785.png" data-lightbox="dan2" data-title="Pic3"><img src = "img/gallery/day2/IMG_1785_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1785.png"></a>
+								<a href="img/gallery/day2/IMG_1790.png" data-lightbox="dan2" data-title="Pic4"><img src = "img/gallery/day2/IMG_1790_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1790.png"></a>
+								<a href="img/gallery/day2/IMG_1808.png" data-lightbox="dan2" data-title="Pic5"><img src = "img/gallery/day2/IMG_1808_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1808.png"></a>
+								<a href="img/gallery/day2/IMG_1812.png" data-lightbox="dan2" data-title="Pic6"><img src = "img/gallery/day2/IMG_1812_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1812.png"></a>
+								<a href="img/gallery/day2/IMG_1815.png" data-lightbox="dan2" data-title="Pic7"><img src = "img/gallery/day2/IMG_1815_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1815.png"></a>
+								<a href="img/gallery/day2/IMG_1817.png" data-lightbox="dan2" data-title="Pic8"><img src = "img/gallery/day2/IMG_1817_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1817.png"></a>
+								<a href="img/gallery/day2/IMG_1810.png" data-lightbox="dan2" data-title="Pic9"><img src = "img/gallery/day2/IMG_1810_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1810.png"></a>
+								<a href="img/gallery/day2/IMG_1819.png" data-lightbox="dan2" data-title="Pic10"><img src = "img/gallery/day2/IMG_1819_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1819.png"></a>
+								<a href="img/gallery/day2/IMG_1823.png" data-lightbox="dan2" data-title="Pic11"><img src = "img/gallery/day2/IMG_1823_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1823.png"></a>
+								<a href="img/gallery/day2/IMG_1844.png" data-lightbox="dan2" data-title="Pic12"><img src = "img/gallery/day2/IMG_1844_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1844.png"></a>
+								<a href="img/gallery/day2/IMG_1858.png" data-lightbox="dan2" data-title="Pic13"><img src = "img/gallery/day2/IMG_1858_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1858.png"></a>
+								<a href="img/gallery/day2/IMG_1874.png" data-lightbox="dan2" data-title="Pic14"><img src = "img/gallery/day2/IMG_1874_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1874.png"></a>
+								<a href="img/gallery/day2/IMG_1878.png" data-lightbox="dan2" data-title="Pic15"><img src = "img/gallery/day2/IMG_1878_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1878.png"></a>
+								<a href="img/gallery/day2/IMG_1881.png" data-lightbox="dan2" data-title="Pic16"><img src = "img/gallery/day2/IMG_1881_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1881.png"></a>
+								<a href="img/gallery/day2/IMG_1885.png" data-lightbox="dan2" data-title="Pic17"><img src = "img/gallery/day2/IMG_1885_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1885.png"></a>
+								<a href="img/gallery/day2/IMG_1887.png" data-lightbox="dan2" data-title="Pic18"><img src = "img/gallery/day2/IMG_1887_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1887.png"></a>
+								<a href="img/gallery/day2/IMG_1895.png" data-lightbox="dan2" data-title="Pic19"><img src = "img/gallery/day2/IMG_1895_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1895.png"></a>
+								<a href="img/gallery/day2/IMG_1897.png" data-lightbox="dan2" data-title="Pic20"><img src = "img/gallery/day2/IMG_1897_small.png" xthumbnail-orig-image="img/gallery/day2/IMG_1897.png"></a>
       						</div>
       						</div>
 				</div>
