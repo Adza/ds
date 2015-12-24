@@ -34,3 +34,7 @@ body{
   transition: -webkit-transform 0.25s ease;
 }
 
+#sirina {
+  margin-left: -55px;
+  width: 1349px;
+}

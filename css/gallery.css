@@ -43,7 +43,7 @@
 
 .imgWrap {
   position: relative;
-  height: 230px;
+  height: 220px;
   width: 220px;
 
 }
@@ -51,6 +51,7 @@
 .imgDescription {
   position: absolute;
   top: -11px;
+  height: 220px;
   bottom: 0;
   left: 0;
   right: 0;
